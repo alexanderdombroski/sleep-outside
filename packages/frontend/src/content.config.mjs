@@ -1,5 +1,5 @@
 import { defineCollection } from "astro:content";
-import { glob, file } from "astro/loaders"; // Not available with legacy API
+import { file } from "astro/loaders"; // Not available with legacy API
 
 // we can also create collections that load from markdown files in a directory...this is an example of how to do that.
 // const posts = defineCollection({
@@ -7,8 +7,9 @@ import { glob, file } from "astro/loaders"; // Not available with legacy API
 // });
 
 // load our product info from the tents.json file
+// TODO - this should pull from the database
 const products = defineCollection({
-  loader: file("public/json/tents.json")
+  loader: file("public/json/tents.json"),
 });
 
 export const collections = { products };
