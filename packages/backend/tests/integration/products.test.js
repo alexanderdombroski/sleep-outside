@@ -1,6 +1,3 @@
-// Load environment variables for tests
-import "dotenv/config";
-
 // Import test helpers from vitest
 import { describe, it, expect, vi, beforeAll, afterAll } from "vitest";
 
@@ -21,8 +18,8 @@ vi.mock("../../src/database/index.mts", () => {
         colors: [
           {
             colorCode: "01",
-            colorName: "Pale Pumpkin/Terracotta"
-          }
+            colorName: "Pale Pumpkin/Terracotta",
+          },
         ],
         descriptionHtmlSimple:
           "Get out and enjoy nature with Marmot&#39;s Ajax tent, featuring a smart design with durable, waterproof construction and two doors for easy access.",
@@ -30,12 +27,12 @@ vi.mock("../../src/database/index.mts", () => {
         brand: {
           id: "1308",
           logoSrc: "../images/logos/marmot-160x100.jpg",
-          name: "Marmot"
+          name: "Marmot",
         },
         listPrice: 199.99,
-        finalPrice: 199.99
-      }
-    ]
+        finalPrice: 199.99,
+      },
+    ],
   };
 
   return {
@@ -43,19 +40,21 @@ vi.mock("../../src/database/index.mts", () => {
       initDb: (cb) => cb && cb(null),
       getDb: () => ({
         collection: (name) => ({
+          // eslint-disable-next-line no-unused-vars
           find: (query) => ({
-            toArray: async () => collections[name] || []
+            toArray: async () => collections[name] || [],
           }),
+          // eslint-disable-next-line no-unused-vars
           deleteMany: async (q) => {
             collections[name] = [];
             return { deletedCount: 0 };
-          }
-        })
+          },
+        }),
       }),
       closeDb: async () => {
         // noop for mock
-      }
-    }
+      },
+    },
   };
 });
 
@@ -78,7 +77,7 @@ describe("getAllProducts", () => {
   afterAll(async () => {
     try {
       await mongodb.closeDb();
-    } catch (e) {
+    } catch {
       // ignore
     }
   });
@@ -98,8 +97,8 @@ describe("getAllProducts", () => {
         colors: [
           {
             colorCode: "01",
-            colorName: "Pale Pumpkin/Terracotta"
-          }
+            colorName: "Pale Pumpkin/Terracotta",
+          },
         ],
         descriptionHtmlSimple:
           "Get out and enjoy nature with Marmot&#39;s Ajax tent, featuring a smart design with durable, waterproof construction and two doors for easy access.",
@@ -107,11 +106,11 @@ describe("getAllProducts", () => {
         brand: {
           id: "1308",
           logoSrc: "../images/logos/marmot-160x100.jpg",
-          name: "Marmot"
+          name: "Marmot",
         },
         listPrice: 199.99,
-        finalPrice: 199.99
-      }
+        finalPrice: 199.99,
+      },
     ]);
     // toBeInstanceOf(Array);
   });
