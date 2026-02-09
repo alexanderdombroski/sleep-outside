@@ -1,0 +1,21 @@
+{
+  "name": "outside",
+  "version": "1.0.0",
+  "description": "Boilerplate for WDD 360 SleepOutside project",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build --emptyOutDir",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "author": "Shane Thompson",
+  "license": "ISC",
+  "devDependencies": {
+    "globals": "^17.0.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vitest": "^4.0.17"
+  }
+}
