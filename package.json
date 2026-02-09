@@ -10,8 +10,30 @@
     "url": "git+https://github.com/alexanderdombroski/sleep-outside.git"
   },
   "keywords": [],
-  "author": "Alex Dombroski, Ammon Johnson",
+  "author": "Alex Dombroski, Ammon Johnson, Hunter Evans",
   "license": "ISC",
   "type": "module",
-  "homepage": "https://github.com/alexanderdombroski/sleep-outside#readme"
+  "workspaces": [
+    "packages/frontend",
+    "packages/backend"
+  ],
+  "private": true,
+  "homepage": "https://github.com/alexanderdombroski/sleep-outside#readme",
+  "dependencies": {
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
+    "eslint": "^9.39.2",
+    "eslint-plugin-astro": "^1.5.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.8.1",
+    "prettier-plugin-astro": "^0.14.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vitest": "^4.0.18"
+  }
 }
