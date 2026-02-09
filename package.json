@@ -1,0 +1,17 @@
+{
+  "name": "sleep-outside-mono",
+  "version": "0.6.7",
+  "description": "A monorepo for WDD-360 sleep outside project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderdombroski/sleep-outside.git"
+  },
+  "keywords": [],
+  "author": "Alex Dombroski, Ammon Johnson",
+  "license": "ISC",
+  "type": "module",
+  "homepage": "https://github.com/alexanderdombroski/sleep-outside#readme"
+}
