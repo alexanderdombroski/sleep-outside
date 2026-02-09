@@ -1,6 +1,10 @@
-# Environment setup
+## Tasks
 
-- You must have Node installed. Visit [https://byui-cit.github.io/learning-modules/modules/general/node-installation/](https://byui-cit.github.io/learning-modules/modules/general/node-installation/) and skip to the Node section for instructions
+See the [trello](https://trello.com/b/tRyabDhC/sleep-outside)
+
+## Environment setup
+
+You must have Node installed. Visit [https://byui-cit.github.io/learning-modules/modules/general/node-installation/](https://byui-cit.github.io/learning-modules/modules/general/node-installation/) and skip to the Node section for instructions
 
 npm install will install dependecies for both the frontend and the backend
 
@@ -8,16 +12,23 @@ npm install will install dependecies for both the frontend and the backend
 
 ### Frontend .env example
 
+These environment variables are injected at build time (don't include anything sensitive)
 
-## Backend - Sleepoutside server
+```
+PUBLIC_SERVER_URL=http://localhost:3000/api/v1/
+```
 
-Use this as a starting point to complete the backed for the WDD 360 team activity: the SleepOutside web application. It scaffolds out a simple node backed that we will use to develop our own API.
+## Backend API
 
 ### Backend .env example
 
+These environment variables are used during server runtime
+
+```env
 PORT=3000
 NODE_ENV=development
 MONGO_URI=<mongo_URI>
 MONGO_USER=<username>
 MONGO_PASSWORD=<password>
 MONGO_DATABASE=sleepoutside
+```
