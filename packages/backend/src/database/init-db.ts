@@ -1,8 +1,14 @@
 import { type Db, MongoClient, ServerApiVersion } from "mongodb";
 import { createProducts } from "./data/products.ts";
 import { createUsers } from "./data/users.ts";
-import type { Product, User, Alert } from "../../../shared/types/schemas.mts";
+import type {
+  Product,
+  User,
+  Alert,
+  Order,
+} from "../../../shared/types/schemas.mts";
 import { alerts } from "./data/alerts.ts";
+import { createOrders } from "./data/orders.ts";
 
 // node --env-file=packages/backend/.env packages/backend/src/database/init-db.ts
 
@@ -47,7 +53,7 @@ const init = async () => {
 const insertMockData = async (db: Db) => {
   try {
     // drop and recreate collections to clear out the old records
-    for (const collection of ["products", "alerts", "users", "reviews"]) {
+    for (const collection of ["products", "alerts", "users", "orders"]) {
       await db.dropCollection(collection);
       await db.createCollection(collection);
       console.info(
@@ -70,6 +76,7 @@ const insertMockData = async (db: Db) => {
       db.collection<Product>("products").insertMany(createProducts()),
       db.collection<User>("users").insertMany(await createUsers()),
       db.collection<Alert>("alerts").insertMany(alerts),
+      db.collection<Order>("orders").insertMany(await createOrders()),
     ]);
 
     const totalInsertCount = results.reduce(

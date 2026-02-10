@@ -1,54 +1,10 @@
-import { z } from "zod";
-
-// --------------- Collection: Address ---------------
-const AddressSchema = z.object({
-  id: z.string(),
-  name: z.string(),
-  line1: z.string(),
-  line2: z.string().nullable(),
-  city: z.string(),
-  state: z.string(),
-  postalCode: z.string(),
-  country: z.string(),
-});
-
-
-const paymentStatus = z.enum(["unpaid", "pending", "paid", "refunded"]);
-export type PaymentStatus = z.infer<typeof paymentStatus>;
-const orderStatus = z.enum(["processing", "shipped", "delivered", "cancelled"]);
-export type OrderStatus = z.infer<typeof orderStatus>;
-
-/** Take a snapshot of products at purchase time to caption details of price and/or name changes */
-const ProductSnapshotSchema = z.object({
-  productId: z.string(),
-  nameSnapshot: z.string(),
-  priceSnapshot: z.number(),
-  quantity: z.number(),
-});
-export type ProductSnapshot = z.infer<typeof ProductSnapshotSchema>;
-
-export type Order = z.infer<typeof OrderSchema>;
-export const OrderSchema = z.object({
-  id: z.string(),
-  userId: z.string(),
-  items: z.array(ProductSnapshotSchema),
-  paymentStatus,
-  orderStatus,
-  paymentMethodType: z.string().nullable(),
-  shippingAddress: AddressSchema,
-  createdAt: z.date(),
-
-  // Aggregates
-  subtotal: z.number(),
-  tax: z.number(),
-  total: z.number(),
-});
+import { OrderSchema, type Order } from "../../../../shared/types/schemas.mts";
 
 // Create orders
-async function createOrders(): Promise<Order[]> {
+export async function createOrders(): Promise<Order[]> {
   const orders: Order[] = [
     {
-      id: "1",
+      _id: "1",
       userId: "1",
       items: [
         {
@@ -68,7 +24,7 @@ async function createOrders(): Promise<Order[]> {
       orderStatus: "delivered",
       paymentMethodType: "credit_card",
       shippingAddress: {
-        id: "addr-1",
+        _id: "addr-1",
         name: "Admin Home",
         line1: "123 Main St",
         line2: null,
@@ -79,11 +35,11 @@ async function createOrders(): Promise<Order[]> {
       },
       createdAt: new Date("2026-01-15"),
       subtotal: 379.98,
-      tax: 30.40,
+      tax: 30.4,
       total: 410.38,
     },
     {
-      id: "2",
+      _id: "2",
       userId: "2",
       items: [
         {
@@ -97,7 +53,7 @@ async function createOrders(): Promise<Order[]> {
       orderStatus: "processing",
       paymentMethodType: "paypal",
       shippingAddress: {
-        id: "addr-2",
+        _id: "addr-2",
         name: "User Residence",
         line1: "456 Oak Ave",
         line2: "Apt 2B",
@@ -108,11 +64,11 @@ async function createOrders(): Promise<Order[]> {
       },
       createdAt: new Date("2026-02-01"),
       subtotal: 39.99,
-      tax: 3.20,
+      tax: 3.2,
       total: 43.19,
     },
     {
-      id: "3",
+      _id: "3",
       userId: "1",
       items: [
         {
@@ -132,7 +88,7 @@ async function createOrders(): Promise<Order[]> {
       orderStatus: "shipped",
       paymentMethodType: "debit_card",
       shippingAddress: {
-        id: "addr-1",
+        _id: "addr-1",
         name: "Admin Home",
         line1: "123 Main St",
         line2: null,
@@ -143,13 +99,13 @@ async function createOrders(): Promise<Order[]> {
       },
       createdAt: new Date("2026-02-03"),
       subtotal: 114.97,
-      tax: 9.20,
+      tax: 9.2,
       total: 124.17,
     },
   ];
 
   // Optional: validate with Zod
-  orders.forEach(order => OrderSchema.parse(order));
+  orders.forEach((order) => OrderSchema.parse(order));
 
   return orders;
 }
