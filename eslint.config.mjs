@@ -24,15 +24,26 @@ export default defineConfig([
       "no-unused-vars": "warn",
       "no-undef": "warn",
       quotes: ["warn", "double", { allowTemplateLiterals: true }],
-      "no-console": "warn",
+      "no-console": ["warn", { allow: ["info", "warn", "error"] }],
       eqeqeq: "warn",
       semi: "warn",
     },
   },
   {
-    files: ["**/*.{ts,mts}"],
+    files: ["packages/backend/**/*.{ts,mts,js,mjs,cjs}"],
+    languageOptions: {
+      globals: globals.node,
+    },
+  },
+  {
+    files: ["packages/frontend/**/*.{ts,mts,js,mjs,cjs}"],
     languageOptions: {
       globals: globals.browser,
+    },
+  },
+  {
+    files: ["**/*.{ts,mts}"],
+    languageOptions: {
       parser: tsParser,
       ecmaVersion: 2017,
     },

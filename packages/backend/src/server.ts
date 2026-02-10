@@ -11,16 +11,16 @@ mongodb.initDb((err: Error) => {
   } else {
     // Start the server after successful initialization of the database
     const server = app.listen(port, () =>
-      console.log(`Server is listening on port ${port}...`),
+      console.info(`Server is listening on port ${port}...`),
     );
 
     if (process.env.NODE_ENV === "production") {
       // we only want this to happen in production
       // Graceful Shutdown for SIGTERM (e.g., Heroku/AWS/Kubernetes restarts)
       process.on("SIGTERM", () => {
-        console.log("👋 SIGTERM RECEIVED. Shutting down gracefully");
+        console.info("👋 SIGTERM RECEIVED. Shutting down gracefully");
         server.close(() => {
-          console.log("💥 Process terminated!");
+          console.info("💥 Process terminated!");
         });
       });
     }

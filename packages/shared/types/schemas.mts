@@ -2,7 +2,7 @@ import { z } from "zod";
 
 // --------------- Collection: Address ---------------
 const AddressSchema = z.object({
-  id: z.string(),
+  _id: z.string(),
   name: z.string(),
   line1: z.string(),
   line2: z.string().nullable(),
@@ -15,13 +15,13 @@ const AddressSchema = z.object({
 // --------------- Collection: User ---------------
 export type User = z.infer<typeof UserSchema>;
 export const UserSchema = z.object({
-  id: z.string(),
+  _id: z.string(),
   name: z.string(),
   email: z.email(),
   password: z.string(),
   addressIds: z.array(z.string()), // Option to save address only at checkout
   joinDate: z.date(),
-  role: z.enum(["customer", "user"]),
+  role: z.enum(["user", "admin"]),
 });
 
 // --------------- Collection: Order ---------------
@@ -42,7 +42,7 @@ export type ProductSnapshot = z.infer<typeof ProductSnapshotSchema>;
 
 export type Order = z.infer<typeof OrderSchema>;
 export const OrderSchema = z.object({
-  id: z.string(),
+  _id: z.string(),
   userId: z.string(),
   items: z.array(ProductSnapshotSchema),
   paymentStatus,
@@ -59,52 +59,54 @@ export const OrderSchema = z.object({
 
 // --------------- Collection: Product ---------------
 
-const Image = z.object({
-  url: z.string(),
-  alt: z.string(),
-});
-
-export type Product = z.infer<typeof ProductSchema>;
-export const ProductSchema = z.object({
-  id: z.string(),
-  brandId: z.string(),
-  name: z.string(),
-  slug: z.string(),
-  description: z.string(),
-  price: z.number(),
-  categoryIds: z.array(z.string()),
-  images: z.array(Image),
-  stock: z.number(),
-  isActive: z.boolean(),
-  createdAt: z.date(),
-  updatedAt: z.date(),
-
-  // Aggregates
-  ratingAverage: z.number(),
-  ratingCount: z.number(),
-});
-
-// --------------- Collection: Category ---------------
-export const CategorySchema = z.object({
-  id: z.string(),
-  name: z.string(),
-  slug: z.string(),
-  image: Image,
-});
-export type Category = z.infer<typeof CategorySchema>;
-
-// --------------- Collection: Brand ---------------
 export type Brand = z.infer<typeof BrandSchema>;
 export const BrandSchema = z.object({
-  id: z.string(),
+  _id: z.string(),
   name: z.string(),
-  logo: Image,
+  url: z.string(),
+  productsUrl: z.string(),
+  logoSrc: z.string(),
 });
+
+export type Category = z.infer<typeof category>;
+const category = z.enum(["sleeping-bags", "backpacks", "tents", "hammocks"]);
+
+export type Product = z.infer<typeof ProductSchema>;
+export const ProductSchema = z
+  .object({
+    _id: z.string(),
+    brand: BrandSchema,
+    name: z.string(),
+    descriptionHtmlSimple: z.string(),
+    listPrice: z.number(),
+    finalPrice: z.number(),
+    category,
+    images: z.object({
+      primarySmall: z.string(),
+      primaryMedium: z.string(),
+      primaryLarge: z.string(),
+      primaryExtraLarge: z.string(),
+      extraImages: z
+        .array(z.object({ title: z.string(), src: z.string() }))
+        .nullish(),
+    }),
+    stock: z.number(),
+    isActive: z.boolean(),
+    createdAt: z.date(),
+    updatedAt: z.date(),
+    isClearance: z.boolean(),
+    reviews: z.object({
+      reviewsUrl: z.string(),
+      reviewCount: z.number(),
+      averageRating: z.number(),
+    }),
+  })
+  .catchall(z.any());
 
 // --------------- Collection: Alert ---------------
 export type Alert = z.infer<typeof AlertSchema>;
 export const AlertSchema = z.object({
-  id: z.string(),
+  _id: z.string(),
   title: z.string(),
   type: z.enum(["warning", "info", "promotion"]),
   scope: z.enum(["brand", "category", "product"]),
@@ -117,7 +119,7 @@ export const AlertSchema = z.object({
 // --------------- Collection: Review ---------------
 export type Review = z.infer<typeof ReviewSchema>;
 export const ReviewSchema = z.object({
-  id: z.string(),
+  _id: z.string(),
   productId: z.string(),
   userId: z.string(),
   rating: z.number().min(1).max(5),
