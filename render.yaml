@@ -5,7 +5,7 @@ services:
     plan: free
 
     buildCommand: npm ci --workspace=packages/backend --omit=dev
-    startCommand: node packages/backend/src/server.js
+    startCommand: node packages/backend/src/server.ts
     branch: main
     autoDeployTrigger: commit
     healthCheckPath: /health
