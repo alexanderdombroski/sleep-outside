@@ -4,6 +4,8 @@ import { defineConfig } from "eslint/config";
 import typescriptEslint from "@typescript-eslint/eslint-plugin";
 import tsParser from "@typescript-eslint/parser";
 import astro from "eslint-plugin-astro";
+import svelte from "eslint-plugin-svelte";
+import svelteParser from "svelte-eslint-parser";
 
 export default defineConfig([
   {
@@ -15,6 +17,18 @@ export default defineConfig([
     extends: ["js/recommended"],
   },
   ...astro.configs.recommended,
+  {
+    files: ["**/*.svelte"],
+    languageOptions: {
+      parser: svelteParser,
+      parserOptions: {
+        parser: tsParser,
+      },
+    },
+    rules: {
+      ...svelte.configs.recommended.rules,
+    },
+  },
   {
     files: ["**/*.{js,mjs,cjs}"],
     languageOptions: { globals: globals.browser },
