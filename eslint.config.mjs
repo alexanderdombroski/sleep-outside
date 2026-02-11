@@ -30,7 +30,7 @@ export default defineConfig([
     },
   },
   {
-    files: ["packages/backend/**/*.{ts,mts,js,mjs,cjs}"],
+    files: ["packages/backend/**/*.{ts,mts,js,mjs,cjs}", ".husky/*.ts"],
     languageOptions: {
       globals: globals.node,
     },

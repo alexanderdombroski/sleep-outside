@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: backend
+    env: node
+    plan: free
+
+    installCommand: npm ci --workspace packages/backend --omit=dev
+    buildCommand: cd packages/backend && npm run build
+    startCommand: node packages/backend/dist/server.js

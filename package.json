@@ -9,7 +9,7 @@
     "lint": "eslint",
     "test": "vitest --watch",
     "test:ci": "vitest run",
-    "prepare": "husky"
+    "prepare": "node .husky/prepare.ts"
   },
   "repository": {
     "type": "git",
