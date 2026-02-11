@@ -4,10 +4,8 @@ services:
     runtime: node
     plan: free
 
-    buildCommand: |
-      npm ci --workspace packages/backend --omit=dev
-      cd packages/backend && npm run build
-    startCommand: node packages/backend/dist/server.js
+    buildCommand: npm ci --workspace=packages/backend --omit=dev
+    startCommand: node packages/backend/src/server.js
     branch: main
     autoDeployTrigger: commit
     healthCheckPath: /health
@@ -16,14 +14,6 @@ services:
         value: 3000
       - key: NODE_ENV
         value: production
-      - key: MONGO_URI
-        sync: false
-      - key: MONGO_USER
-        sync: false
-      - key: MONGO_PASSWORD
-        sync: false
-      - key: MONGO_DATABASE
-        sync: false
     buildFilter:
       ignoredPaths:
         - packages/frontend/**
