@@ -1,9 +1,13 @@
 services:
   - type: web
     name: backend
-    env: node
+    runtime: node
     plan: free
 
-    installCommand: npm ci --workspace packages/backend --omit=dev
-    buildCommand: cd packages/backend && npm run build
+    buildCommand: |
+      npm ci --workspace packages/backend --omit=dev
+      cd packages/backend && npm run build
     startCommand: node packages/backend/dist/server.js
+    branch: main
+    autoDeployTrigger: commit
+    healthCheckPath: /health
