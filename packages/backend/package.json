@@ -2,27 +2,26 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/server",
+  "main": "src/server.ts",
   "type": "module",
   "scripts": {
     "test": "vitest --typecheck",
     "test:ci": "vitest run",
     "start": "node --env-file=.env src/server.ts",
-    "build": "npx tsc",
+    "build": "vite build",
     "dev": "node --watch --env-file=.env src/server.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.5",
     "@types/morgan": "^1.9.10",
     "@types/node": "^22.13.9",
-    "@types/swagger-ui-express": "^4.1.8",
-    "typescript": "^5.8.2"
+    "@types/swagger-ui-express": "^4.1.8"
   },
   "dependencies": {
-    "@types/cors": "^2.8.19",
     "argon2": "^0.44.0",
     "cors": "^2.8.6",
     "express": "^5.1.0",

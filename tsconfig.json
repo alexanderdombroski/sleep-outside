@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
         "types": ["node"],
-    }
+    },
+    "include": ["./.husky/prepare.ts"]
 }
