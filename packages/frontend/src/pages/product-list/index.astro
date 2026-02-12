@@ -1,0 +1,31 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import "../../css/style.css";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import Tent from "../../assets/category-icons/tent.svg?url";
+import SleepingBag from "../../assets/category-icons/Sleeping-bag.svg?url";
+import Hammock from "../../assets/category-icons/hammock.svg?url";
+import Backpack from "../../assets/category-icons/backpack.svg?url";
+const title = "Home";
+---
+
+<Layout title={title}>
+  <Header />
+    <div class="categories">
+        <a href="/products/tents/" ><img src={Tent} alt="Tent Icon" />Tents</a>
+        <a href="/products/sleeping-bags/"><img src={SleepingBag} alt="Sleeping Bag Icon" />Sleeping Bags</a>
+        <a href="/products/Hammocks/" ><img src={Hammock} alt="Hammock Icon" />Hammocks</a>
+        <a href="/products/backpacks/"><img src={Backpack} alt="Backpack Icon" />Backpacks</a>
+    </div>
+  <Footer />
+</Layout>
+
+
+<style>
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+</style>
