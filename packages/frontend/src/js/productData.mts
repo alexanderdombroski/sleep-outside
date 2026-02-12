@@ -11,8 +11,8 @@ function convertToJson(res: Response) {
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-function getData(category = "tents") {
-  return fetch(`../json/${category}.json`)
+function getProducts(category: string) {
+  return fetch(`${BASE_URL}products?category=${category}`)
     .then(convertToJson)
     .then((data) => data);
 }

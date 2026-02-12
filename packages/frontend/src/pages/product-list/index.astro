@@ -12,20 +12,27 @@ const title = "Home";
 
 <Layout title={title}>
   <Header />
-    <div class="categories">
-        <a href="/products/tents/" ><img src={Tent} alt="Tent Icon" />Tents</a>
-        <a href="/products/sleeping-bags/"><img src={SleepingBag} alt="Sleeping Bag Icon" />Sleeping Bags</a>
-        <a href="/products/Hammocks/" ><img src={Hammock} alt="Hammock Icon" />Hammocks</a>
-        <a href="/products/backpacks/"><img src={Backpack} alt="Backpack Icon" />Backpacks</a>
-    </div>
+  <div class="categories">
+    <a href="product-list/index.html?category=tents"
+      ><img src={Tent} alt="Tent Icon" />Tents</a
+    >
+    <a href="product-list/index.html?category=sleeping-bags"
+      ><img src={SleepingBag} alt="Sleeping Bag Icon" />Sleeping Bags</a
+    >
+    <a href="product-list/index.html?category=hammocks"
+      ><img src={Hammock} alt="Hammock Icon" />Hammocks</a
+    >
+    <a href="product-list/index.html?category=backpacks"
+      ><img src={Backpack} alt="Backpack Icon" />Backpacks</a
+    >
+  </div>
   <Footer />
 </Layout>
 
-
 <style>
-.categories {
+  .categories {
     display: flex;
     justify-content: space-around;
     padding: 2rem 0;
-}
+  }
 </style>
