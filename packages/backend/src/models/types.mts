@@ -41,7 +41,7 @@ export interface Color {
 }
 
 export interface Brand {
-  id: string;
+  _id: string;
   url: string;
   productsUrl: string;
   logoSrc: string;
@@ -49,7 +49,7 @@ export interface Brand {
 }
 
 export interface Users {
-  id: string;
+  _id: string;
   name: string;
   email: string;
   password: string;
@@ -59,7 +59,7 @@ export interface Users {
 };
 
 export interface Alert {
-  id: string;
+  _id: string;
   title: string;
   type: "warning" | "info" | "promotion";
   scope: "brand" | "category" | "product";
@@ -72,7 +72,7 @@ export interface Alert {
 /*
 export type Alert = z.infer<typeof AlertSchema>;
 export const AlertSchema = z.object({
-  id: z.string(),
+  _id: z.string(),
   title: z.string(),
   type: z.enum(["warning", "info", "promotion"]),
   scope: z.enum(["brand", "category", "product"]),
