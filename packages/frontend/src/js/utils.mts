@@ -6,15 +6,15 @@ export function qs(selector: string, parent = document) {
 // export const qs = (selector, parent = document) => parent.querySelector(selector);
 
 /** retrieve data from localstorage */
-export function getLocalStorage<T>(key:string) {
-  const data = localStorage.getItem(key)
+export function getLocalStorage<T>(key: string) {
+  const data = localStorage.getItem(key);
   if (data) {
     return JSON.parse(data) as T;
   }
 }
 
 /** save data to local storage */
-export function setLocalStorage(key:string, data:any) {
+export function setLocalStorage(key: string, data: any) {
   localStorage.setItem(key, JSON.stringify(data));
 }
 // set a listener for both touchend and click
@@ -43,4 +43,9 @@ export function openUserMenu(selector: string) {
       el?.classList.remove("open");
     });
   });
+}
+
+export function getParam(name: string) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(name);
 }
