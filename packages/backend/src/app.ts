@@ -15,6 +15,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 import routes from "./routes/index.mts";
 import EntityNotFoundError from "./errors/EntityNotFoundError.mts";
 import { globalErrorHandler } from "./middleware/error.middleware.mts";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { sanitizeQueryMiddleware } from "./middleware/pages.middleware.mts";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -46,7 +47,7 @@ const limiter = rateLimit({
 });
 app.use("/api", limiter);
 
-app.use(sanitizeQueryMiddleware);
+// app.use(sanitizeQueryMiddleware);
 
 // --- 2. ROUTES ---
 // We use versioning (/v1) so we can update the API later without breaking old clients
