@@ -21,7 +21,8 @@
   "type": "module",
   "workspaces": [
     "packages/frontend",
-    "packages/backend"
+    "packages/backend",
+    "packages/svelte-practice"
   ],
   "private": true,
   "homepage": "https://github.com/alexanderdombroski/sleep-outside#readme",
