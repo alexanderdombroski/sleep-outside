@@ -7,7 +7,7 @@ const products = defineCollection({
     );
     const data = await response.json();
     // Must return an array of entries with an id property, or an object with IDs as keys and entries as values
-    return data;
+    return data.map(({ _id, ...rest }) => ({ id: _id, ...rest }));
   },
 });
 

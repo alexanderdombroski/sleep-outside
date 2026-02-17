@@ -6,6 +6,7 @@
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
     "dev:backend": "cd packages/backend && npm run dev",
     "dev:frontend": "cd packages/frontend && npm run dev",
+    "build:frontend": "cd packages/frontend && npm run build",
     "lint": "eslint",
     "test": "vitest --watch",
     "test:ci": "vitest run",
