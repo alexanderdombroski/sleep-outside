@@ -15,6 +15,7 @@ GET /products
 ### Users should be able to see details about selected products including what other users thought about the product (reviews).
 
 GET /products/:id
+GET /products/categories/:id
 GET /reviews
 
 POST /reviews
