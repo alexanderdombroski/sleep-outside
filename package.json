@@ -27,15 +27,17 @@
   "private": true,
   "homepage": "https://github.com/alexanderdombroski/sleep-outside#readme",
   "dependencies": {
+    "astro": "^5.17.2",
+    "svelte": "^5.51.3",
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@types/node": "^25.2.2",
-    "@typescript-eslint/eslint-plugin": "^8.54.0",
-    "@typescript-eslint/parser": "^8.54.0",
+    "@types/node": "^25.2.3",
+    "@typescript-eslint/eslint-plugin": "^8.56.0",
+    "@typescript-eslint/parser": "^8.56.0",
     "concurrently": "^9.2.1",
     "eslint": "^9.39.2",
-    "eslint-plugin-astro": "^1.5.0",
+    "eslint-plugin-astro": "^1.6.0",
     "eslint-plugin-svelte": "^3.15.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
