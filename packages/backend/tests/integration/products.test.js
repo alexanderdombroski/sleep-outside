@@ -30,7 +30,8 @@ vi.mock("../../src/database/index.mts", () => {
           name: "Marmot",
         },
         listPrice: 199.99,
-        finalPrice: 199.99,
+        discountPercentage: 25,
+        finalPrice: 149.99,
       },
     ],
   };
@@ -109,7 +110,8 @@ describe("getAllProducts", () => {
           name: "Marmot",
         },
         listPrice: 199.99,
-        finalPrice: 199.99,
+        discountPercentage: 50,
+        finalPrice: 99.99,
       },
     ]);
     // toBeInstanceOf(Array);

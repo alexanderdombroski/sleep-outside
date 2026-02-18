@@ -2,6 +2,7 @@ export interface Product {
   _id: string;
   id: string;
   isClearance: boolean;
+  discountPercentage: number | null; // 0-100 or null if no discount
   category: string;
   isNew: boolean;
   url: string;
@@ -56,7 +57,7 @@ export interface Users {
   addressIds: string[]; // Option to save address only at checkout
   joinDate: Date;
   role: "user" | "admin";
-};
+}
 
 export interface Alert {
   _id: string;
