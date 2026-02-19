@@ -27,7 +27,9 @@
   "private": true,
   "homepage": "https://github.com/alexanderdombroski/sleep-outside#readme",
   "dependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
     "astro": "^5.17.2",
+    "jsonwebtoken": "^9.0.3",
     "svelte": "^5.51.3",
     "zod": "^4.3.6"
   },

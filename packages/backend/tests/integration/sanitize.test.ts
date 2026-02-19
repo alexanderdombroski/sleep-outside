@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { sanitize } from "../../src/js/utils.mts";
+import { sanitize } from "../../src/utils.mts";
 describe("sanitize", () => {
   it("removes keys that start with $ recursively", () => {
     const input = {

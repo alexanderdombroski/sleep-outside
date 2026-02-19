@@ -1,5 +1,5 @@
 import type { Request, Response, NextFunction } from "express";
-import { sanitize } from "../js/utils.mts";
+import { sanitize } from "../utils.mts";
 
 export const sanitizeQueryMiddleware = (
   req: Request,
