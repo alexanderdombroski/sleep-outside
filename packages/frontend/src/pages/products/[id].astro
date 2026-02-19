@@ -32,11 +32,19 @@ const title = product.data.name;
 
     <img
       class="divider"
-      src=`../../../public/images/${product.data.image}`
+      src=`../../../public/images/${product.data.images.primaryExtraLarge}`
       alt="Marmot Ajax tent"
     />
 
     <p class="product-card__price">${product.data.listPrice}</p>
+    <p class="product-card__discount">
+      ${
+        product.data.discountPercentage
+          ? `${product.data.discountPercentage}% off`
+          : "No discount"
+      }
+    </p>
+    <p class="product-card__final-price">${product.data.finalPrice}</p>
 
     <!-- TODO - map over colors -->
     <p class="product__color">

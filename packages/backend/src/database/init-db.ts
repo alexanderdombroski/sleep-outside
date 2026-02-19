@@ -70,6 +70,8 @@ const insertMockData = async (db: Db) => {
     await db.collection("products").createIndex({ description: 1 });
     await db.collection("products").createIndex({ category: 1 });
     await db.collection("products").createIndex({ id: 1 });
+    await db.collection("products").createIndex({ discountPercentage: 1 });
+    await db.collection("products").createIndex({ isClearance: 1 });
 
     // insert all mock data
     const results = await Promise.all([
