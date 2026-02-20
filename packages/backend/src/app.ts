@@ -9,6 +9,12 @@ const app: express.Application = express();
 import swaggerUi from "swagger-ui-express";
 import swaggerDocument from "../swagger/swagger.json" with { type: "json" };
 
+
+import dns from "node:dns/promises";
+
+
+
+
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // Local Imports (NOTE: .mts extension is required in ESM)
@@ -36,6 +42,10 @@ app.use(cors());
 // Development logging
 if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));
+  // I was trying to connect to MongoDB Atlas and it was giving me DNS resolution errors, so I switched to Google's public DNS servers. 
+  // This is not ideal for production, but it works for development and testing. 
+  // This probably isn't appropriate for production, but it works for development and testing.
+  dns.setServers(["8.8.8.8", "8.8.4.4"]);
 }
 
 // Rate Limiting (Prevent Brute Force & DOS attacks)
