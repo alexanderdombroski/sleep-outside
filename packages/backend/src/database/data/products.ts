@@ -60,7 +60,8 @@ const products = [
       Name: "Marmot",
     },
     ListPrice: 229.99,
-    FinalPrice: 229.99,
+    discountPercentage: 25,
+    FinalPrice: 172.49,
   },
   {
     _id: "21KMF",
@@ -115,7 +116,8 @@ const products = [
       Name: "Marmot",
     },
     ListPrice: 149.99,
-    FinalPrice: 149.99,
+    discountPercentage: 25,
+    FinalPrice: 112.49,
   },
   {
     _id: "14GVH",
@@ -171,6 +173,7 @@ const products = [
       Name: "Marmot",
     },
     ListPrice: 189.99,
+    discountPercentage: 0,
     FinalPrice: 189.99,
   },
   {
@@ -224,6 +227,7 @@ const products = [
       Name: "Klymit",
     },
     ListPrice: 39.99,
+    discountPercentage: 0,
     FinalPrice: 39.99,
   },
   {
@@ -313,6 +317,7 @@ const products = [
       Name: "Kelty",
     },
     ListPrice: 34.99,
+    discountPercentage: null,
     FinalPrice: 34.99,
   },
   {
@@ -369,6 +374,7 @@ const products = [
       Name: "Marmot",
     },
     ListPrice: 189.99,
+    discountPercentage: null,
     FinalPrice: 189.99,
   },
   {
@@ -425,6 +431,7 @@ const products = [
       Name: "Kelty",
     },
     ListPrice: 99.99,
+    discountPercentage: null,
     FinalPrice: 99.99,
   },
   {
@@ -473,6 +480,7 @@ const products = [
       Name: "Klymit",
     },
     ListPrice: 119.99,
+    discountPercentage: null,
     FinalPrice: 119.99,
   },
   {
@@ -528,6 +536,7 @@ const products = [
       Name: "Marmot",
     },
     ListPrice: 99.99,
+    discountPercentage: null,
     FinalPrice: 99.99,
   },
   {
@@ -577,6 +586,7 @@ const products = [
       Name: "Therm-a-Rest",
     },
     ListPrice: 79.99,
+    discountPercentage: null,
     FinalPrice: 79.99,
   },
   {
@@ -632,6 +642,7 @@ const products = [
       Name: "Marmot",
     },
     ListPrice: 99.99,
+    discountPercentage: null,
     FinalPrice: 99.99,
   },
   {
@@ -685,6 +696,7 @@ const products = [
       Name: "Klymit",
     },
     ListPrice: 59.99,
+    discountPercentage: null,
     FinalPrice: 59.99,
   },
   {
@@ -740,6 +752,7 @@ const products = [
       Name: "The North Face",
     },
     ListPrice: 229.99,
+    discountPercentage: null,
     FinalPrice: 229.99,
   },
   {
@@ -796,6 +809,7 @@ const products = [
       Name: "The North Face",
     },
     ListPrice: 149.99,
+    discountPercentage: null,
     FinalPrice: 149.99,
   },
   {
@@ -844,6 +858,7 @@ const products = [
       Name: "Sierra Designs",
     },
     ListPrice: 24.99,
+    discountPercentage: null,
     FinalPrice: 24.99,
   },
   {
@@ -906,6 +921,7 @@ const products = [
       Name: "The North Face",
     },
     ListPrice: 39.99,
+    discountPercentage: null,
     FinalPrice: 39.99,
   },
   {
@@ -1009,6 +1025,7 @@ const products = [
       Name: "Mystery Ranch",
     },
     ListPrice: 69.99,
+    discountPercentage: null,
     FinalPrice: 69.99,
   },
   {
@@ -1063,6 +1080,7 @@ const products = [
       Name: "The North Face",
     },
     ListPrice: 69.99,
+    discountPercentage: null,
     FinalPrice: 69.99,
   },
   {
@@ -1133,6 +1151,7 @@ const products = [
       Name: "Gregory",
     },
     ListPrice: 99.99,
+    discountPercentage: null,
     FinalPrice: 99.99,
   },
   {
@@ -1205,6 +1224,7 @@ const products = [
       Name: "Gregory",
     },
     ListPrice: 99.99,
+    discountPercentage: null,
     FinalPrice: 99.99,
   },
   {
@@ -1274,6 +1294,7 @@ const products = [
       Name: "Mystery Ranch",
     },
     ListPrice: 119.99,
+    discountPercentage: null,
     FinalPrice: 119.99,
   },
   {
@@ -1342,6 +1363,7 @@ const products = [
       Name: "Gregory",
     },
     ListPrice: 129.99,
+    discountPercentage: null,
     FinalPrice: 129.99,
   },
   {
@@ -1406,6 +1428,7 @@ const products = [
       Name: "Kelty",
     },
     ListPrice: 119.99,
+    discountPercentage: null,
     FinalPrice: 119.99,
   },
   {
@@ -1460,6 +1483,7 @@ const products = [
       Name: "Gregory",
     },
     ListPrice: 129.99,
+    discountPercentage: null,
     FinalPrice: 129.99,
   },
   {
@@ -1523,6 +1547,7 @@ const products = [
       Name: "Gregory",
     },
     ListPrice: 199.99,
+    discountPercentage: null,
     FinalPrice: 199.99,
   },
   {
@@ -1585,6 +1610,7 @@ const products = [
       Name: "The North Face",
     },
     ListPrice: 39,
+    discountPercentage: 0,
     FinalPrice: 39,
   },
   {
@@ -1658,6 +1684,7 @@ const products = [
       Name: "Mystery Ranch",
     },
     ListPrice: 119.99,
+    discountPercentage: null,
     FinalPrice: 119.99,
   },
   {
@@ -1716,6 +1743,7 @@ const products = [
       Name: "Gregory",
     },
     ListPrice: 129.99,
+    discountPercentage: null,
     FinalPrice: 129.99,
   },
   {
@@ -1804,6 +1832,7 @@ const products = [
       Name: "The North Face",
     },
     ListPrice: 129.99,
+    discountPercentage: null,
     FinalPrice: 129.99,
   },
   {
@@ -1864,6 +1893,7 @@ const products = [
       Name: "The North Face",
     },
     ListPrice: 79.99,
+    discountPercentage: null,
     FinalPrice: 79.99,
   },
   {
@@ -1926,6 +1956,7 @@ const products = [
       Name: "The North Face",
     },
     ListPrice: 349.99,
+    discountPercentage: null,
     FinalPrice: 349.99,
   },
   {
@@ -1985,6 +2016,7 @@ const products = [
       Name: "Marmot",
     },
     ListPrice: 179.99,
+    discountPercentage: null,
     FinalPrice: 179.99,
   },
   {
@@ -2044,7 +2076,8 @@ const products = [
       Name: "Marmot",
     },
     ListPrice: 199.99,
-    FinalPrice: 199.99,
+    discountPercentage: 25,
+    FinalPrice: 149.99,
   },
   {
     _id: "543DR",
@@ -2122,6 +2155,7 @@ const products = [
       Name: "Cloudveil",
     },
     ListPrice: 49.99,
+    discountPercentage: null,
     FinalPrice: 49.99,
   },
   {
@@ -2180,6 +2214,7 @@ const products = [
       Name: "The North Face",
     },
     ListPrice: 199.99,
+    discountPercentage: null,
     FinalPrice: 199.99,
   },
   {
@@ -2234,6 +2269,7 @@ const products = [
       Name: "Cedar Ridge",
     },
     ListPrice: 99.99,
+    discountPercentage: null,
     FinalPrice: 99.99,
   },
   {
@@ -2292,6 +2328,7 @@ const products = [
       Name: "The North Face",
     },
     ListPrice: 349.99,
+    discountPercentage: null,
     FinalPrice: 349.99,
   },
   {
@@ -2346,6 +2383,7 @@ const products = [
       Name: "Cedar Ridge",
     },
     ListPrice: 49,
+    discountPercentage: null,
     FinalPrice: 49,
   },
   {
@@ -2404,6 +2442,7 @@ const products = [
       Name: "The North Face",
     },
     ListPrice: 179.99,
+    discountPercentage: null,
     FinalPrice: 179.99,
   },
   {
@@ -2469,6 +2508,7 @@ const products = [
       Name: "The North Face",
     },
     ListPrice: 119.99,
+    discountPercentage: null,
     FinalPrice: 119.99,
   },
   {
@@ -2523,6 +2563,7 @@ const products = [
       Name: "Wenzel",
     },
     ListPrice: 39,
+    discountPercentage: null,
     FinalPrice: 39,
   },
   {
@@ -2577,6 +2618,7 @@ const products = [
       Name: "Wenzel",
     },
     ListPrice: 69,
+    discountPercentage: null,
     FinalPrice: 69,
   },
   {
@@ -2631,6 +2673,7 @@ const products = [
       Name: "Cloudveil",
     },
     ListPrice: 39.99,
+    discountPercentage: null,
     FinalPrice: 39.99,
   },
   {
@@ -2680,6 +2723,7 @@ const products = [
       Name: "The North Face",
     },
     ListPrice: 15,
+    discountPercentage: null,
     FinalPrice: 15,
   },
   {
@@ -2729,6 +2773,7 @@ const products = [
       Name: "ENO",
     },
     ListPrice: 39.99,
+    discountPercentage: null,
     FinalPrice: 39.99,
   },
   {
@@ -2795,6 +2840,7 @@ const products = [
       Name: "ENO",
     },
     ListPrice: 24.99,
+    discountPercentage: null,
     FinalPrice: 24.99,
   },
   {
@@ -2860,6 +2906,7 @@ const products = [
       Name: "ENO",
     },
     ListPrice: 39.99,
+    discountPercentage: null,
     FinalPrice: 39.99,
   },
   {
@@ -2922,6 +2969,7 @@ const products = [
       Name: "ENO",
     },
     ListPrice: 49.99,
+    discountPercentage: null,
     FinalPrice: 49.99,
   },
   {
@@ -3003,6 +3051,7 @@ const products = [
       Name: "Grand Trunk",
     },
     ListPrice: 29,
+    discountPercentage: null,
     FinalPrice: 29,
   },
   {
@@ -3081,6 +3130,7 @@ const products = [
       Name: "TICKET TO THE MOON",
     },
     ListPrice: 75,
+    discountPercentage: null,
     FinalPrice: 75,
   },
   {
@@ -3146,6 +3196,7 @@ const products = [
       Name: "TICKET TO THE MOON",
     },
     ListPrice: 34.99,
+    discountPercentage: null,
     FinalPrice: 34.99,
   },
   {
@@ -3203,6 +3254,7 @@ const products = [
       Name: "Peregrine",
     },
     ListPrice: 29,
+    discountPercentage: null,
     FinalPrice: 29,
   },
   {
@@ -3252,6 +3304,7 @@ const products = [
       Name: "ENO",
     },
     ListPrice: 29.99,
+    discountPercentage: null,
     FinalPrice: 29.99,
   },
   {
@@ -3301,6 +3354,7 @@ const products = [
       Name: "NorEast Outdoors",
     },
     ListPrice: 15,
+    discountPercentage: null,
     FinalPrice: 15,
   },
   {
@@ -3350,6 +3404,7 @@ const products = [
       Name: "NorEast Outdoors",
     },
     ListPrice: 15,
+    discountPercentage: null,
     FinalPrice: 15,
   },
   {
@@ -3407,6 +3462,7 @@ const products = [
       Name: "NorEast Outdoors",
     },
     ListPrice: 24.99,
+    discountPercentage: null,
     FinalPrice: 24.99,
   },
   {
@@ -3456,6 +3512,7 @@ const products = [
       Name: "Avalanche Outdoors",
     },
     ListPrice: 22,
+    discountPercentage: null,
     FinalPrice: 22,
   },
 ];

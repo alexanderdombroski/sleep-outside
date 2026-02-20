@@ -80,6 +80,7 @@ export const ProductSchema = z
     descriptionHtmlSimple: z.string(),
     listPrice: z.number(),
     finalPrice: z.number(),
+    discountPercentage: z.number().nullable(), // 0-100 or null if no discount
     category,
     images: z.object({
       primarySmall: z.string(),
