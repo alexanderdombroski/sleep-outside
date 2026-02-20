@@ -2,6 +2,8 @@ import express from "express";
 import usersModel from "../models/users.model.mts";
 import { login } from "../services/user.service.mts";
 import type { LoginResult } from "../../../shared/types/apiResults.mts";
+import authorize from "../middleware/authorize.mts";
+import type { Request, Response } from "express";
 
 const router = express.Router();
 
@@ -36,7 +38,7 @@ router.post("/login", async (req, res) => {
   return res.json(loginData);
 });
 
-router.post("/users", async (req, res) => {
+router.post("/", async (req, res) => {
   const { name, email, password } = req.body;
   if (!name || !email || !password) {
     return res
@@ -54,6 +56,12 @@ router.post("/users", async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: `Failed to create user. error: ${error}` });
   }
+});
+
+// Protect a route with JWT authentication. Note the authorize middleware! Make sure to import it as well.
+router.get('/protected', authorize, (req: Request, res: Response) => {
+    console.info(res.locals.user)
+  res.json({ message: `Hello, ${res.locals.user.email}!` });
 });
 
 export default router;
