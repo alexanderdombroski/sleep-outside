@@ -20,6 +20,7 @@ export default defineConfig([
   {
     files: ["**/*.svelte"],
     languageOptions: {
+      globals: globals.browser,
       parser: svelteParser,
       parserOptions: {
         parser: tsParser,

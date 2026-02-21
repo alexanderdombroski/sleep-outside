@@ -8,6 +8,5 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 try {
   loadEnvFile(join(__dirname, "packages", "backend", ".env"));
 } catch {
-  // eslint-disable-next-line no-console
   console.warn("Failed to load env file");
 }
