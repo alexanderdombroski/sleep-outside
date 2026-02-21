@@ -1,6 +1,5 @@
 ---
 let { title } = Astro.props as { title: string };
-import UserMenu from "../components/UserMenu.svelte";
 ---
 
 <!doctype html>
@@ -13,9 +12,6 @@ import UserMenu from "../components/UserMenu.svelte";
     <title>Sleep Outside | {title}</title>
   </head>
   <body>
-    <div class="user-menu-container">
-      <UserMenu></UserMenu>
-    </div>
     <slot />
   </body>
 </html>
