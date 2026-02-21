@@ -31,4 +31,6 @@ MONGO_URI=<mongo_URI>
 MONGO_USER=<username>
 MONGO_PASSWORD=<password>
 MONGO_DATABASE=sleepoutside
+JWT_SECRET=<secret_key>
+JWT_EXPIRES_IN=<duration>
 ```
