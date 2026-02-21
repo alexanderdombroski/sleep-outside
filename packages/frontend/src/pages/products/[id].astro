@@ -2,9 +2,6 @@
 import type { Product } from "../../js/types.mts";
 import Layout from "../../layouts/Layout.astro";
 import { type CollectionEntry, getCollection } from "astro:content";
-import Header from "../../components/Header.svelte";
-import Footer from "../../components/Footer.astro";
-import "../../css/style.css";
 // map though all products to create a page for each one
 export async function getStaticPaths() {
   const products = await getCollection("products");
@@ -26,7 +23,6 @@ const title = product.data.name;
 
 <Layout>
   <slot class="divider">
-    <Header />
   <script src="../../js/product.ts"></script>
 
   <section class="product-detail">
@@ -62,5 +58,4 @@ const title = product.data.name;
     </p>
   </section>
   </slot>
-  <Footer />
 </Layout>
