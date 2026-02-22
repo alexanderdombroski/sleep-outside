@@ -16,20 +16,6 @@ export default defineConfig([
     plugins: { js },
     extends: ["js/recommended"],
   },
-  ...astro.configs.recommended,
-  {
-    files: ["**/*.svelte"],
-    languageOptions: {
-      globals: globals.browser,
-      parser: svelteParser,
-      parserOptions: {
-        parser: tsParser,
-      },
-    },
-    rules: {
-      ...svelte.configs.recommended.rules,
-    },
-  },
   {
     files: ["**/*.{js,mjs,cjs}"],
     languageOptions: { globals: globals.browser },
@@ -71,6 +57,20 @@ export default defineConfig([
       "@typescript-eslint/consistent-type-imports": "warn",
       "no-unused-vars": "off",
       "@typescript-eslint/no-unused-vars": "warn", // Use correct rule
+    },
+  },
+  ...astro.configs.recommended,
+  {
+    files: ["**/*.svelte", "**/*.svelte.ts"],
+    languageOptions: {
+      globals: globals.browser,
+      parser: svelteParser,
+      parserOptions: {
+        parser: tsParser,
+      },
+    },
+    rules: {
+      ...svelte.configs.recommended.rules,
     },
   },
 ]);
