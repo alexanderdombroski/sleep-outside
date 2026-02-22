@@ -14,8 +14,6 @@ export function getAlert() {
 /**
  * Usage example
  * ```typescript
- * const { sendAlert } = useAlert();
- *
  * sendAlert({
  *   message: "Profile saved successfully!",
  *   type: "success",
