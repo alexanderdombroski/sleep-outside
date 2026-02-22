@@ -1,5 +1,6 @@
 ---
 let { title } = Astro.props as { title: string };
+import { Alert } from "../components/alert";
 ---
 
 <!doctype html>
@@ -13,6 +14,7 @@ let { title } = Astro.props as { title: string };
   </head>
   <body>
     <slot />
+    <Alert client:load />
   </body>
 </html>
 
