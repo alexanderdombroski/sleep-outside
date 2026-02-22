@@ -3,4 +3,9 @@ import Layout from "../../layouts/Layout.astro";
 const title = "Cart";
 ---
 
-<Layout title={title}></Layout>
+<Layout title={title}>
+    <slot class="divider">
+        <h1>Cart</h1>
+        <p>This is the cart page.</p>
+    </slot>
+</Layout>

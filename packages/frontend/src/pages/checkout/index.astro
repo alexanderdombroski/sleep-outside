@@ -3,4 +3,9 @@ import Layout from "../../layouts/Layout.astro";
 const title = "Checkout";
 ---
 
-<Layout title={title}></Layout>
+<Layout title={title}>
+    <slot class="divider">
+        <h1>Checkout</h1>
+        <p>This is the checkout page.</p>
+    </slot>
+</Layout>
