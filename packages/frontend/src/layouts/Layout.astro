@@ -4,6 +4,7 @@ import Footer from "../components/Footer.astro";
 import "../css/style.css";
 
 let { title } = Astro.props as { title: string };
+import { Alert } from "../components/alert";
 ---
 
 <!doctype html>
@@ -19,6 +20,7 @@ let { title } = Astro.props as { title: string };
     <Header />
     <slot />
     <Footer />
+    <Alert client:load />
   </body>
 </html>
 
