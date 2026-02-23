@@ -1,6 +1,6 @@
 ---
-import Header from "../../components/Header.svelte";
-import Footer from "../../components/Footer.astro";
+import Layout from "../../layouts/Layout.astro";
+const title = "Product Not Found";
 ---
 
 <html>
@@ -8,8 +8,10 @@ import Footer from "../../components/Footer.astro";
     <title>Product Not Found</title>
   </head>
   <body>
-    <Header />
-    <p>Product Not Found</p>
-    <Footer />
+    <Layout title={title}>
+      <slot class="divider">
+        <p>Product Not Found</p>
+      </slot>
+    </Layout>
   </body>
 </html>

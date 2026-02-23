@@ -1,8 +1,5 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import "../../css/style.css";
-import Header from "../../components/Header.svelte";
-import Footer from "../../components/Footer.astro";
 import Tent from "../../assets/category-icons/tent.svg?url";
 import SleepingBag from "../../assets/category-icons/Sleeping-bag.svg?url";
 import Hammock from "../../assets/category-icons/hammock.svg?url";
@@ -12,23 +9,23 @@ const title = "Home";
 ---
 
 <Layout title={title}>
-  <Header />
-  <div class="categories">
-    <a href="/product-list?category=tents"
-      ><img src={Tent} alt="Tent Icon" />Tents</a
-    >
-    <a href="/product-list?category=sleeping-bags"
-      ><img src={SleepingBag} alt="Sleeping Bag Icon" />Sleeping Bags</a
-    >
-    <a href="/product-list?category=hammocks"
-      ><img src={Hammock} alt="Hammock Icon" />Hammocks</a
-    >
-    <a href="/product-list?category=backpacks"
-      ><img src={Backpack} alt="Backpack Icon" />Backpacks</a
-    >
-  </div>
-  <ProductList client:load />
-  <Footer />
+  <slot class="divider">
+    <div class="categories">
+      <a href="/product-list?category=tents"
+        ><img src={Tent} alt="Tent Icon" />Tents</a
+      >
+      <a href="/product-list?category=sleeping-bags"
+        ><img src={SleepingBag} alt="Sleeping Bag Icon" />Sleeping Bags</a
+      >
+      <a href="/product-list?category=hammocks"
+        ><img src={Hammock} alt="Hammock Icon" />Hammocks</a
+      >
+      <a href="/product-list?category=backpacks"
+        ><img src={Backpack} alt="Backpack Icon" />Backpacks</a
+      >
+    </div>
+    <ProductList client:load />
+  </slot>
 </Layout>
 
 <style>

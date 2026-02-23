@@ -1,15 +1,17 @@
 ---
-import Header from "../components/Header.svelte";
-import Footer from "../components/Footer.astro";
+import Layout from "../layouts/Layout.astro";
+const title = "Page Not Found";
 ---
 
 <html>
   <head>
-    <title>Page Not Found</title>
+    <title>{title}</title>
   </head>
   <body>
-    <Header />
-    <p>Page Not Found</p>
-    <Footer />
+    <Layout title={title}>
+      <slot class="divider">
+        <p>Page Not Found</p>
+      </slot>
+    </Layout>
   </body>
 </html>
