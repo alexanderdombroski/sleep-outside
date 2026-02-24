@@ -19,7 +19,7 @@ export function getLocalStorage<T>(key: string): T | null {
       }
     }
   }
-  
+
   // Return null if on the server or if the key doesn't exist
   return null;
 }

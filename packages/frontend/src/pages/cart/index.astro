@@ -1,32 +1,28 @@
 ---
-    import Layout from "../../layouts/Layout.astro";
-    const title = "Cart";
+import Layout from "../../layouts/Layout.astro";
+const title = "Cart";
 ---
 
 <script>
-    import type { Product } from "../../js/types.mts";
-    import { onMount } from "svelte";
-    import { renderCartContents } from "../../js/cart.ts";
-    let cartItems: Product[] = renderCartContents() as Product[];
-    let cartTotal = 0;
-    cartItems.forEach(product => {
-            cartTotal += product.finalPrice;
-        });
-        const cartTotalElement = document.querySelector(".cart-total");
-        if (cartItems.length > 0 && cartTotalElement) {
-            cartTotalElement.innerHTML = `<p class="cart-total">Total: $${cartTotal.toFixed(2)}</p>`;
-        }
-        else if (cartTotalElement) {
-            cartTotalElement.innerHTML = `<p class="cart-total-empty">Total: $0.00</p>`;
-        }
-        console.log(cartTotal);
+  import type { Product } from "../../js/types.mts";
+  import { renderCartContents } from "../../js/cart.ts";
+  let cartItems: Product[] = renderCartContents() as Product[];
+  let cartTotal = 0;
+  cartItems.forEach((product) => {
+    cartTotal += product.finalPrice;
+  });
+  const cartTotalElement = document.querySelector(".cart-total");
+  if (cartItems.length > 0 && cartTotalElement) {
+    cartTotalElement.innerHTML = `<p class="cart-total">Total: $${cartTotal.toFixed(2)}</p>`;
+  } else if (cartTotalElement) {
+    cartTotalElement.innerHTML = `<p class="cart-total-empty">Total: $0.00</p>`;
+  }
 </script>
 
 <Layout title={title}>
-    <slot class="divider">
-        <h1>Cart</h1>
-        <ul class="product-list"></ul>
-        <p class="cart-total"></p>
-    </slot>
+  <slot class="divider">
+    <h1>Cart</h1>
+    <ul class="product-list"></ul>
+    <p class="cart-total"></p>
+  </slot>
 </Layout>
-

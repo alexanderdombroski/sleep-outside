@@ -1,7 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import { type CollectionEntry, getCollection } from "astro:content";
-import type { Product } from "../../js/types.mts";
 
 export async function getStaticPaths() {
   const products = await getCollection("products");
