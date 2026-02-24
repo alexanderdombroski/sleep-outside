@@ -6,21 +6,23 @@ import Hammock from "../../assets/category-icons/hammock.svg?url";
 import Backpack from "../../assets/category-icons/backpack.svg?url";
 import ProductList from "../../components/ProductList.svelte";
 const title = "Home";
+
+const BASE_URL = import.meta.env.BASE_URL;
 ---
 
 <Layout title={title}>
   <slot class="divider">
     <div class="categories">
-      <a href="/product-list?category=tents"
+      <a href=`${BASE_URL}product-list?category=tents`
         ><img src={Tent} alt="Tent Icon" />Tents</a
       >
-      <a href="/product-list?category=sleeping-bags"
+      <a href=`${BASE_URL}product-list?category=sleeping-bags`
         ><img src={SleepingBag} alt="Sleeping Bag Icon" />Sleeping Bags</a
       >
-      <a href="/product-list?category=hammocks"
+      <a href=`${BASE_URL}product-list?category=hammocks`
         ><img src={Hammock} alt="Hammock Icon" />Hammocks</a
       >
-      <a href="/product-list?category=backpacks"
+      <a href=`${BASE_URL}product-list?category=backpacks`
         ><img src={Backpack} alt="Backpack Icon" />Backpacks</a
       >
     </div>

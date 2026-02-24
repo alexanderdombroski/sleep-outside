@@ -1,10 +1,11 @@
 <script lang="ts">
    import type { Product } from "../../../shared/types/schemas.mjs";
    let { product }: { product: Product } = $props();
+   const BASE_URL = import.meta.env.BASE_URL;
 </script>
 
 <li class="product-card">
-        <a href={`/products/${product._id}/`}>
+        <a href={`${BASE_URL}products/${product._id}/`}>
           <img
             src={product.images.primaryMedium}
             alt={product.name}
