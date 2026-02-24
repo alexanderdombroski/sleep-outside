@@ -74,4 +74,9 @@ router.get("/categories/:id", async (req, res, next) => {
   res.status(200).json(products);
 });
 
+router.get("/cart", async (req, res, next) => {
+  // This is just a placeholder to show how we can create a route for the cart if we want to have server side cart functionality in the future
+  res.status(200).json({ message: "Cart route" });
+});
+
 export default router; // Export the router to use it in the main file

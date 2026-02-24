@@ -1,11 +1,19 @@
 import { getLocalStorage } from "./utils.mjs";
 import type { Product } from "./types.mjs";
 
-function renderCartContents() {
+export function renderCartContents() {
   const cartItems = getLocalStorage<Product[]>("so-cart") ?? [];
   const htmlItems = cartItems.map((item) => cartItemTemplate(item));
   const listEl = document.querySelector(".product-list");
   if (listEl) listEl.innerHTML = htmlItems.join("");
+  return cartItems;
+}
+
+export function addToCart(product: Product) {
+  const cartItems = getLocalStorage<Product[]>("so-cart") ?? [];
+  cartItems.push(product);
+  localStorage.setItem("so-cart", JSON.stringify(cartItems));
+  renderCartContents();
 }
 
 function cartItemTemplate(item: Product) {
