@@ -3,10 +3,13 @@ import Layout from "../layouts/Layout.astro";
 import { findProductById } from "../js/productData.mts";
 import ProductSummary from "../components/ProductSummary.svelte";
 
-const product1 = await findProductById("880RR");
-const product2 = await findProductById("985KU");
-const product3 = await findProductById("985PR");
-const product4 = await findProductById("344YJ");
+const products = await Promise.all([
+  findProductById("880RR"),
+  findProductById("985KU"),
+  findProductById("985PR"),
+  findProductById("344YJ"),
+]);
+
 const title = "Home";
 ---
 
@@ -34,10 +37,7 @@ const title = "Home";
     </section>
     <section class="products">
       <h2>Top Products</h2>
-      <ProductSummary product={product1} />
-      <ProductSummary product={product2} />
-      <ProductSummary product={product3} />
-      <ProductSummary product={product4} />
+      {products.map((product) => <ProductSummary {product} />)}
     </section>
   </slot>
 </Layout>
