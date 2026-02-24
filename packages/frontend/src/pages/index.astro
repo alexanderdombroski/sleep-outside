@@ -1,4 +1,5 @@
 ---
+import tent from "../../public/images/noun_Tent_2517.svg?url";
 import Layout from "../layouts/Layout.astro";
 import { findProductById } from "../js/productData.mts";
 import ProductSummary from "../components/ProductSummary.svelte";
@@ -22,7 +23,7 @@ const title = "Home";
         alt="image of a high mountain lake"
       />
       <div class="logo logo--square">
-        <img src="/images/noun_Tent_2517.svg" alt="tent image for logo" />
+        <img src={tent} alt="tent image for logo" />
         <div>Sleep<span class="highlight">Outside</span></div>
       </div>
     </div>

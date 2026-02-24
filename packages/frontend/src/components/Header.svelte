@@ -1,12 +1,13 @@
 <script>
   import cart from "../assets/hiking-backpack.svg?url";
+  import tent from "../../public/images/noun_Tent_2517.svg"
   import UserMenu from "./UserMenu.svelte";
 </script>
 
 <header class="divider">
   <div class="logo">
     <a href="/">
-      <img src="/images/noun_Tent_2517.svg" alt="tent icon" />
+      <img src={tent} alt="tent icon" />
       <p>Sleep Outside</p>
     </a>
   </div>

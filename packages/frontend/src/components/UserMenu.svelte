@@ -1,4 +1,5 @@
 <script lang="ts">
+  import hiker from '../../public/images/noun-hiker.svg?url'
   import { onMount } from "svelte";
 
   let visible = $state(false);
@@ -45,7 +46,7 @@
     title="User Management"
     onclick={openUserMenu}
   >
-    <img src="/images/noun-hiker.svg" alt="user icon" />
+    <img src={hiker} alt="user icon" />
   </button>
   
   <nav class="user__menu" class:open={visible}>
