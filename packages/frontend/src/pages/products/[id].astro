@@ -54,6 +54,8 @@ const title = product.data.name;
 
 <script>
   import { addToCart } from "../../js/cart.ts";
+  import { sendAlert } from "../../components/alert/alert.svelte.ts";
+  import type { AlertOptions } from "../../components/alert";
 
   const btn = document.querySelector("#addToCart");
 
@@ -65,7 +67,13 @@ const title = product.data.name;
       if (productString) {
         const productData = JSON.parse(productString);
         addToCart(productData);
-        alert(`${productData.name} was added to your cart!`);
+
+        const alertOptions: AlertOptions = {
+          message: `${productData.name} was added to your cart!`,
+          type: "success",
+          duration: 3000,
+        };
+        sendAlert(alertOptions);
       }
     });
   }
