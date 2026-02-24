@@ -6,11 +6,22 @@ export function qs(selector: string, parent = document) {
 // export const qs = (selector, parent = document) => parent.querySelector(selector);
 
 /** retrieve data from localstorage */
-export function getLocalStorage<T>(key: string) {
-  const data = localStorage.getItem(key);
-  if (data) {
-    return JSON.parse(data) as T;
+export function getLocalStorage<T>(key: string): T | null {
+  // Check if we are in a browser environment
+  if (typeof window !== "undefined") {
+    const data = localStorage.getItem(key);
+    if (data) {
+      try {
+        return JSON.parse(data) as T;
+      } catch (e) {
+        console.error("Error parsing localStorage item:", e);
+        return null;
+      }
+    }
   }
+
+  // Return null if on the server or if the key doesn't exist
+  return null;
 }
 
 /** save data to local storage */

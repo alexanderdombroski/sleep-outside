@@ -16,7 +16,7 @@
     </div>
     <div class="cart">
       <a
-        href="cart/index.html"
+        href={`/cart`}
         aria-label="Shopping Cart"
         title="Shopping Cart"
       >
