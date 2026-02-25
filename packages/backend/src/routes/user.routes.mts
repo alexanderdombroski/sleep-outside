@@ -18,6 +18,7 @@ router.get("/", async (req, res) => {
 
 router.post("/login", async (req, res) => {
   const { email, password } = req.body;
+  console.info(`User loggin in: ${email}`);
   const user = await usersModel.getUserByEmail(email);
   if (!user) {
     return res.status(401).json({ error: "Invalid email or password." });
@@ -59,8 +60,8 @@ router.post("/", async (req, res) => {
 });
 
 // Protect a route with JWT authentication. Note the authorize middleware! Make sure to import it as well.
-router.get('/protected', authorize, (req: Request, res: Response) => {
-    console.info(res.locals.user)
+router.get("/protected", authorize, (req: Request, res: Response) => {
+  console.info(res.locals.user);
   res.json({ message: `Hello, ${res.locals.user.email}!` });
 });
 
