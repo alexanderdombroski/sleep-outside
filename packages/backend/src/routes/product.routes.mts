@@ -73,5 +73,28 @@ router.get("/categories/:id", async (req, res, next) => {
   }
   res.status(200).json(products);
 });
+router.get("/search/:query", async (req, res, next) => {
+  const { query } = req.params;
+  if (!query) {
+    return next(
+      new EntityNotFoundError({
+        message: "Search query required",
+        code: "ERR_VALID",
+        statusCode: 400,
+      }),
+    );
+  }
+  const products = await productService.getProductsByQuery(query);
+  if (!products?.length) {
+    return next(
+      new EntityNotFoundError({
+        message: `No products found for query ${query}`,
+        code: "ERR_NF",
+        statusCode: 404,
+      }),
+    );
+  }
+  res.status(200).json(products);
+});
 
 export default router; // Export the router to use it in the main file

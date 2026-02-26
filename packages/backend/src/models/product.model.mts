@@ -31,6 +31,22 @@ async function getProductsByCategory(
   return data;
 }
 
+async function getProductsByQuery(query: string): Promise<Product[] | null> {
+  const data = await mongodb
+    .getDb()
+    .collection<Product>("products")
+    .find({
+      $or: [
+        { name: { $regex: query, $options: "i" } },
+        { descriptionHtmlSimple: { $regex: query, $options: "i" } },
+        { category: { $regex: query, $options: "i" } },
+      ],
+    })
+    .toArray();
+  console.info(`Found ${data.length} products matching query "${query}"`);
+  return data;
+}
+
 async function addProduct(product: Product): Promise<void> {
   await mongodb.getDb().collection<Product>("products").insertOne(product);
   console.info(`Product with id ${product.id} added to the database.`);
@@ -55,4 +71,5 @@ export default {
   addProduct,
   dropProduct,
   updateProduct,
+  getProductsByQuery,
 };
