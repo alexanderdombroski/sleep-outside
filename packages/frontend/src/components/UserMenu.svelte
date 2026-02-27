@@ -37,6 +37,8 @@
       window.removeEventListener("keydown", handleKeydown);
     };
   });
+
+  const BASE_URL = import.meta.env.BASE_URL;
 </script>
 
 <div class="user">
@@ -50,8 +52,8 @@
   </button>
   
   <nav class="user__menu" class:open={visible}>
-    <a href="#">Login</a>
-    <a href="#">Profile</a>
+    <a href={`${BASE_URL}profile/index.html`}>Login</a>
+    <a href={`${BASE_URL}profile/index.html`}>Profile</a>
     <a href="#">Orders</a>
   </nav>
 </div>
