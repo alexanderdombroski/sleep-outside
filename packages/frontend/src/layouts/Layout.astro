@@ -17,23 +17,22 @@ import { Alert } from "../components/alert";
     <title>Sleep Outside | {title}</title>
   </head>
   <body>
-    <Header />
+    <Header client:load />
     <slot />
     <Footer />
     <Alert client:load />
   </body>
 </html>
 
+<script src="../js/main.ts"></script>
 
-<!-- This was conflicting with style.css. 
-     I think we can delete it, but I commented 
-     it to be safe before we deleted it. -->
-
-<!-- <style>
-  html,
+<style>
   body {
     margin: 0;
     width: 100%;
     height: 100%;
+    font-family: var(--font-body);
+    font-size: var(--font-base);
+    color: var(--dark-grey);
   }
-</style> -->
+</style>

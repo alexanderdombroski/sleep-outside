@@ -1,39 +1,37 @@
 <script lang="ts">
-    import { login } from "../js/auth.svelte";
-
-// what is this?  We give the option to pass a function into our login component that will get called on a successful login. 
-// If no function is passed it defaults to one that will redirect the user to another page (like Home).
-//   let { onSuccess = (path: string) => { window.location.href = path;} } = $props<{
-//     onSuccess?: (data: { email: string }) => void;
-//   }>();
-
-
+  import { login } from "../js/auth.svelte";
+  import { getParam } from "../js/utils.mts";
+  import { onMount } from 'svelte';
 
   let email = $state("");
   let password = $state("");
-  let errorMessage = $state("");
 
-  async function loginHandler(event: Event) {
+  async function loginHandler(event: SubmitEvent) {
     event.preventDefault();
     console.log(event);
-    const data = new FormData(event.currentTarget as HTMLFormElement)
-    await login(data.get('email') as string, data.get('password') as string);
-    // Handle login logic here
-    // if (email === "user@example.com" && password === "password") {
-    //   alert(`Email: ${email}\nPassword: ${password}`);
-    //   errorMessage = ""; // Clear error message on successful login
-    //   // Call the success callback with user data
-    //   onSuccess("/");
-    // } else {
-    //   errorMessage = "Invalid email or password"; // Simulate a login error for demonstration purposes
-    // }
+    const data = new FormData(
+      event.currentTarget as HTMLFormElement,
+      event.submitter,
+    );
+    await login(data.get("email") as string, data.get("password") as string);
+    window.location.href = redirectPath
   }
+
+  let redirectPath = "/";
+  onMount(() => {
+    // we added the getParam function to utils in Team 5
+    const param = getParam("redirect");
+    if (param) {
+      // if the redirect param exists use that
+      redirectPath = param;
+    } else if (document.referrer != window.location.href) {
+      // otherwise send back to the referring page if set
+      redirectPath = document.referrer;
+    }
+  });
 </script>
 
 <h2>Login</h2>
-{#if errorMessage}
-  <p class="error">{errorMessage}</p>
-{/if}
 <form onsubmit={loginHandler} class="login-form">
   <label>
     Email:
@@ -47,6 +45,10 @@
 </form>
 
 <style>
+  h2 {
+    text-align: center;
+  }
+
   .login-form {
     display: flex;
     flex-direction: column;
