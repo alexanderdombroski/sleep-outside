@@ -1,3 +1,4 @@
+import { get } from "node:http";
 import productModel from "../models/product.model.mts";
 
 const getProductById = async (id: string) => {
@@ -10,9 +11,13 @@ const getAllProducts = async () => {
 const getProductsByCategory = async (category: string) => {
   return await productModel.getProductsByCategory(category);
 };
+const getProductsByQuery = async (query: string) => {
+  return await productModel.getProductsByQuery(query);
+};
 
 export default {
   getAllProducts,
   getProductById,
   getProductsByCategory,
+  getProductsByQuery,
 };
