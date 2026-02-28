@@ -27,3 +27,4 @@ pnpm-debug.log*
 .vscode/**
 !.vscode/launch.json
 !.vscode/extensions.json
+!.vscode/sleep-outside.code-snippets
