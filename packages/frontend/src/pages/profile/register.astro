@@ -1,0 +1,17 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import RegisterComponent from "../../components/Register.svelte";
+---
+
+<Layout>
+  <section class="register">
+    <h2>Register</h2>
+    <RegisterComponent client:load />
+  </section>
+</Layout>
+
+<style>
+  h2 {
+    text-align: center;
+  }
+</style>

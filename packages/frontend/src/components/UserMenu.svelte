@@ -61,7 +61,7 @@
       >
     {:else}
       <a href={`${BASE_URL}login/index.html`}>Login</a>
-      <a href={`${BASE_URL}login/register.html`}>Register</a>
+      <a href={`${BASE_URL}profile/register.html`}>Register</a>
     {/if}
   </nav>
 </div>
