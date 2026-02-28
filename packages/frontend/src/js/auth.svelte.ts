@@ -46,7 +46,8 @@ export function logout() {
   userStore.token = "";
   userStore.isLoggedIn = false;
   setLocalStorage("userStore", null);
-  // we should probably do something if they are on a protected page when they logout...
+  const BASE_URL = import.meta.env.BASE_URL;
+  window.location.href = BASE_URL;
 }
 
 export function checkAuth() {

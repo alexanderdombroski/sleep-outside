@@ -1,6 +1,7 @@
 <script lang="ts">
-  import hiker from '../../public/images/noun-hiker.svg?url'
+  import hiker from "../../public/images/noun-hiker.svg?url";
   import { onMount } from "svelte";
+  import { logout, userStore } from "../js/auth.svelte";
 
   let visible = $state(false);
 
@@ -50,11 +51,18 @@
   >
     <img src={hiker} alt="user icon" />
   </button>
-  
+
   <nav class="user__menu" class:open={visible}>
-    <a href={`${BASE_URL}profile/index.html`}>Login</a>
-    <a href={`${BASE_URL}profile/index.html`}>Profile</a>
-    <a href="#">Orders</a>
+    {#if userStore.isLoggedIn}
+      <a href={`${BASE_URL}profile/index.html`}>Profile</a>
+      <a href="#">Orders</a>
+      <span role="button" onclick={logout} onkeypress={logout} tabindex="0"
+        >Logout</span
+      >
+    {:else}
+      <a href={`${BASE_URL}login/index.html`}>Login</a>
+      <a href={`${BASE_URL}login/register.html`}>Register</a>
+    {/if}
   </nav>
 </div>
 
@@ -62,56 +70,51 @@
   .user {
     display: flex;
     align-items: flex-end;
-  }
-  span {
-    margin-right: 0.5em;
+    position: relative;
   }
 
-  .user {
-  position: relative;
-}
+  .user a:link,
+  .user a:visited {
+    color: var(--dark-grey);
+    text-decoration: none;
+  }
+  .user a:hover,
+  .user span:hover {
+    text-decoration: underline;
+  }
+  .user__button {
+    background-color: transparent;
+    border: 0;
+    color: var(--dark-grey);
+    width: var(--icon-size);
+    height: var(--icon-size);
+    overflow: hidden;
+    padding: 0;
+  }
+  .user__button:hover {
+    /* color: var(--light-grey); */
+    opacity: 0.7;
+  }
+  .user__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 120%;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0 1em;
+    line-height: 2;
 
-.user a:link,
-.user a:visited {
-  color: var(--dark-grey);
-  text-decoration: none;
-}
-.user a:hover {
-  text-decoration: underline;
-}
-.user__button {
-  background-color: transparent;
-  border: 0;
-  color: var(--dark-grey);
-  width: var(--icon-size);
-  height: var(--icon-size);
-  overflow: hidden;
-  padding: 0;
-}
-.user__button:hover {
-  /* color: var(--light-grey); */
-  opacity: 0.7;
-}
-.user__menu {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  position: absolute;
-  top: 120%;
-  right: 0;
-  z-index: 10;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  padding: 0 1em;
-  line-height: 2;
-
-  height: 0;
-  overflow: hidden;
-  transition: all 0.3s ease-in-out;
-}
-.user__menu.open {
-  height: auto;
-  padding: 1em;
-  border: 1px solid var(--primary-color);
-}
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  .user__menu.open {
+    height: auto;
+    padding: 1em;
+    border: 1px solid var(--primary-color);
+  }
 </style>
