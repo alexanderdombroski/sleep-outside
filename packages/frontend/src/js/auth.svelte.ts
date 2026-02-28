@@ -13,8 +13,8 @@ interface UserStore {
   token: string;
 }
 
-const BASE_URL = import.meta.env.PUBLIC_SERVER_URL;
-const WEBSITE_ROOT = import.meta.env.BASE_URL;
+const API_ROOT = import.meta.env.PUBLIC_SERVER_URL;
+const BASE_URL = import.meta.env.BASE_URL;
 
 export const userStore = $state({
   isLoggedIn: false,
@@ -23,7 +23,7 @@ export const userStore = $state({
 }) as UserStore;
 
 export async function login(email: string, password: string) {
-  const res = await fetch(`${BASE_URL}users/login`, {
+  const res = await fetch(`${API_ROOT}users/login`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -45,11 +45,10 @@ export async function login(email: string, password: string) {
 }
 
 export function logout() {
+  setLocalStorage("userStore", null);
   userStore.user = undefined;
   userStore.token = "";
   userStore.isLoggedIn = false;
-  setLocalStorage("userStore", null);
-  const BASE_URL = import.meta.env.BASE_URL;
   window.location.href = BASE_URL;
 }
 
@@ -61,10 +60,6 @@ export function checkAuth() {
     userStore.token = userData.token;
     userStore.user = userData.user;
     userStore.isLoggedIn = true;
-  } else {
-    userStore.isLoggedIn = false;
-    userStore.user = undefined;
-    userStore.token = "";
   }
   return !!userData;
 }
@@ -72,7 +67,7 @@ export function checkAuth() {
 export type RegistrationInfo = Pick<User, "email" | "name" | "password">;
 
 export async function register(newUserData: RegistrationInfo) {
-  const res = await fetch(`${BASE_URL}users`, {
+  const res = await fetch(`${API_ROOT}users`, {
     body: JSON.stringify(newUserData),
     method: "POST",
     headers: {
@@ -88,5 +83,25 @@ export async function register(newUserData: RegistrationInfo) {
 
   await login(newUserData.email, newUserData.password);
   sendAlert({ message: `Welcome, ${newUserData.name}`, type: "success" });
-  window.location.href = `${WEBSITE_ROOT}`;
+  window.location.href = `${BASE_URL}`;
+}
+
+export async function changePassword(password: string) {
+  const email = userStore.user!.email;
+  const res = await fetch(`${API_ROOT}users/password`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${userStore.token}`,
+    },
+    body: JSON.stringify({ email, password }),
+  });
+
+  const { message } = await res.json();
+  if (res.ok) {
+    sendAlert({ type: "success", message });
+    login(email, password);
+  } else {
+    sendAlert({ type: "error", message });
+  }
 }

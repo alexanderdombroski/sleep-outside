@@ -65,4 +65,20 @@ router.get("/protected", authorize, (req: Request, res: Response) => {
   res.json({ message: `Hello, ${res.locals.user.email}!` });
 });
 
+router.put("/password", authorize, async (req: Request, res: Response) => {
+  const { password, email } = req.body;
+  const user = await usersModel.getUserByEmail(email);
+  if (!user) {
+    return res.status(401).json({ message: "Invalid email." });
+  }
+  try {
+    await usersModel.updateUser({ ...user, password });
+    res.status(200).json({ message: `Password updated for, ${user.name}!` });
+  } catch {
+    res
+      .status(500)
+      .json({ message: "Unable to update password. Try again later." });
+  }
+});
+
 export default router;
