@@ -1,4 +1,6 @@
 import type { LoginResult } from "../../../shared/types/apiResults.mjs";
+import type { User } from "../../../shared/types/schemas.mts";
+import { sendAlert } from "../components/alert";
 import { getLocalStorage, setLocalStorage } from "./utils.mts";
 
 interface UserStore {
@@ -12,6 +14,7 @@ interface UserStore {
 }
 
 const BASE_URL = import.meta.env.PUBLIC_SERVER_URL;
+const WEBSITE_ROOT = import.meta.env.BASE_URL;
 
 export const userStore = $state({
   isLoggedIn: false,
@@ -64,4 +67,26 @@ export function checkAuth() {
     userStore.token = "";
   }
   return !!userData;
+}
+
+export type RegistrationInfo = Pick<User, "email" | "name" | "password">;
+
+export async function register(newUserData: RegistrationInfo) {
+  const res = await fetch(`${BASE_URL}users`, {
+    body: JSON.stringify(newUserData),
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
+
+  if (!res.ok) {
+    const { message } = await res.json();
+    sendAlert({ message, type: "error" });
+    return;
+  }
+
+  await login(newUserData.email, newUserData.password);
+  sendAlert({ message: `Welcome, ${newUserData.name}`, type: "success" });
+  window.location.href = `${WEBSITE_ROOT}`;
 }
