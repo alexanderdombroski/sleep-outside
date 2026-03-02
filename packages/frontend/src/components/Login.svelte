@@ -6,9 +6,10 @@
   let email = $state("");
   let password = $state("");
 
+  const BASE_URL = import.meta.env.BASE_URL;
+
   async function loginHandler(event: SubmitEvent) {
     event.preventDefault();
-    console.log(event);
     const data = new FormData(
       event.currentTarget as HTMLFormElement,
       event.submitter,
@@ -17,7 +18,7 @@
     window.location.href = redirectPath
   }
 
-  let redirectPath = "/";
+  let redirectPath = BASE_URL;
   onMount(() => {
     // we added the getParam function to utils in Team 5
     const param = getParam("redirect");
