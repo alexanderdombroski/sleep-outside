@@ -22,17 +22,17 @@ const products = [
     Name: "Marmot 5°F Rampart Down Sleeping Bag - 650 Fill, Mummy (For Men and Women)",
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women~a~14gvf_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women~a~14gvf_2~600.1.jpg",
         },
       ],
     },
@@ -44,9 +44,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Rusted Orange/Mahogany",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/14gvf-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/14gvf-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. Sleep under the stars with Marmot&#39;s Rampart sleeping bag, fortified with 650 <a class="glossaryTermLink" href="/fill-power~g~1840" title="Fill Power: - The number of cubic inches one ounce of down insulation occupies; also, a measurement of the down’s loft (fluffiness). The higher the fill power, the warmer it is. Choose the type of fill and use the fill power as a guideline to how warm or lofty you like your bedding.  Lightweight warmth has a 500-550 fill power. 550-600 fill power offers medium warmth and 600+ fill power is very warm.">fill power</a> down insulation for ultimate comfort and warmth.`,
@@ -56,7 +56,7 @@ const products = [
       Url: "/brand/1308/",
       ProductsUrl: "/products?Brand=1308/",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/marmot~b~1308~160x100.jpg",
       Name: "Marmot",
     },
     ListPrice: 229.99,
@@ -78,17 +78,17 @@ const products = [
     Name: "Marmot 30°F Mavericks Double Wide Sleeping Bag - Square",
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square~a~21kmf_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-30-f-mavericks-double-wide-sleeping-bag-square~a~21kmf_2~600.1.jpg",
         },
       ],
     },
@@ -100,9 +100,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Golden Copper/Dark Olive",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/21kmf-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/21kmf-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Designed to share with your special someone, this Marmot Mavericks double wide sleeping bag also zips apart to become two individual bags. Fortified with SpiraFil synthetic insulation for optimal warmth and comfort on chilly nights`,
@@ -112,7 +112,7 @@ const products = [
       Url: "/brand/1308/",
       ProductsUrl: "/products?Brand=1308/",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/marmot~b~1308~160x100.jpg",
       Name: "Marmot",
     },
     ListPrice: 149.99,
@@ -135,17 +135,17 @@ const products = [
     Name: "Marmot 20°F Kenosha Down Sleeping Bag - 650 Fill Power, Mummy (For Men and Women)",
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women-in-green-lichen-green-gulch~p~14gvh_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women-in-green-lichen-green-gulch~p~14gvh_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women-in-green-lichen-green-gulch~p~14gvh_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women-in-green-lichen-green-gulch~p~14gvh_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women-in-green-lichen-green-gulch~p~14gvh_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women-in-green-lichen-green-gulch~p~14gvh_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women-in-green-lichen-green-gulch~p~14gvh_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women-in-green-lichen-green-gulch~p~14gvh_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women~a~14gvh_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women~a~14gvh_2~600.1.jpg",
         },
       ],
     },
@@ -157,9 +157,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Green Lichen/Green Gulch",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/14gvh-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/14gvh-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women-in-green-lichen-green-gulch~p~14gvh_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women-in-green-lichen-green-gulch~p~14gvh_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. Sleep under the stars with Marmot&#39;s Kenosha sleeping bag, fortified with 650 <a class="glossaryTermLink" href="/fill-power~g~1840" title="Fill Power: - The number of cubic inches one ounce of down insulation occupies; also, a measurement of the down’s loft (fluffiness). The higher the fill power, the warmer it is. Choose the type of fill and use the fill power as a guideline to how warm or lofty you like your bedding.  Lightweight warmth has a 500-550 fill power. 550-600 fill power offers medium warmth and 600+ fill power is very warm.">fill power</a> down insulation for ultimate comfort and warmth`,
@@ -169,7 +169,7 @@ const products = [
       Url: "/brand/1308/",
       ProductsUrl: "/products?Brand=1308/",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/marmot~b~1308~160x100.jpg",
       Name: "Marmot",
     },
     ListPrice: 189.99,
@@ -191,17 +191,17 @@ const products = [
     Name: "Klymit Static V2 Sleeping Pad - Inflatable",
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-static-v2-sleeping-pad-inflatable-in-green~p~16pwy_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-static-v2-sleeping-pad-inflatable-in-green~p~16pwy_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-static-v2-sleeping-pad-inflatable-in-green~p~16pwy_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-static-v2-sleeping-pad-inflatable-in-green~p~16pwy_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-static-v2-sleeping-pad-inflatable-in-green~p~16pwy_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-static-v2-sleeping-pad-inflatable-in-green~p~16pwy_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-static-v2-sleeping-pad-inflatable-in-green~p~16pwy_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-static-v2-sleeping-pad-inflatable-in-green~p~16pwy_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-static-v2-sleeping-pad-inflatable~a~16pwy_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-static-v2-sleeping-pad-inflatable~a~16pwy_2~600.1.jpg",
         },
       ],
     },
@@ -211,9 +211,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Green",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/16pwy-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/16pwy-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-static-v2-sleeping-pad-inflatable-in-green~p~16pwy_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-static-v2-sleeping-pad-inflatable-in-green~p~16pwy_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Rest comfortably on the trail with Klymit&#39;s Static V2 sleeping pad, featuring a lightweight, compact design with ergonomic V-chambers that support your pressure points and maximize warmth`,
@@ -223,7 +223,7 @@ const products = [
       Url: "/brand/4173/",
       ProductsUrl: "/products/klymit?Brand=4173",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/klymit~b~4173~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/klymit~b~4173~160x100.jpg",
       Name: "Klymit",
     },
     ListPrice: 39.99,
@@ -246,25 +246,25 @@ const products = [
     Name: "Kelty 50°F Rambler Sleeping Bag - Semi-Rectangular (For Men and Women)",
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women~a~861py_2~600.3.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women~a~861py_2~600.3.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women~a~861py_3~600.3.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women~a~861py_3~600.3.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women~a~861py_4~600.2.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women~a~861py_4~600.2.jpg",
         },
       ],
     },
@@ -277,33 +277,33 @@ const products = [
         ColorCode: "04",
         ColorName: "Red Sand",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/861py-04.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/861py-04.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~160.jpg",
       },
       {
         ColorCode: "02",
         ColorName: "Fire Orange",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/861py-02.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/861py-02.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-fire-orange~p~861py_02~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-fire-orange~p~861py_02~160.jpg",
       },
       {
         ColorCode: "03",
         ColorName: "Green Apple",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/861py-03.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/861py-03.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-green-apple~p~861py_03~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-green-apple~p~861py_03~160.jpg",
       },
       {
         ColorCode: "01",
         ColorName: "Paradise Blue",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/861py-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/861py-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-paradise-blue~p~861py_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-paradise-blue~p~861py_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Kelty&#39;s 50&#176;F Rambler sleeping bag features a semi-rectangular design that keeps you comfortably warm (or cool) in mild temperatures`,
@@ -313,7 +313,7 @@ const products = [
       Url: "/brand/1105/",
       ProductsUrl: "/products?Brand=1105",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/kelty~b~1105~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/kelty~b~1105~160x100.jpg",
       Name: "Kelty",
     },
     ListPrice: 34.99,
@@ -336,17 +336,17 @@ const products = [
     Name: "Marmot 20°F Sawatch Down Sleeping Bag - 650 Fill Power, Mummy (For Women)",
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women~a~14gvg_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women~a~14gvg_2~600.1.jpg",
         },
       ],
     },
@@ -358,9 +358,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Ocean/Sea Scape",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/14gvg-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/14gvg-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. Sleep under the stars with Marmot&#39;s Sawatch sleeping bag, fortified with 650 <a class="glossaryTermLink" href="/fill-power~g~1840" title="Fill Power: - The number of cubic inches one ounce of down insulation occupies; also, a measurement of the down’s loft (fluffiness). The higher the fill power, the warmer it is. Choose the type of fill and use the fill power as a guideline to how warm or lofty you like your bedding.  Lightweight warmth has a 500-550 fill power. 550-600 fill power offers medium warmth and 600+ fill power is very warm.">fill power</a> down insulation for ultimate comfort and warmth`,
@@ -370,7 +370,7 @@ const products = [
       Url: "/brand/1308/",
       ProductsUrl: "/products?Brand=1308/",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/marmot~b~1308~160x100.jpg",
       Name: "Marmot",
     },
     ListPrice: 189.99,
@@ -393,17 +393,17 @@ const products = [
     Name: "Kelty 40°F Cosmic DriDown® Sleeping Bag - 600 Fill Power, Mummy",
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy-in-see-photo~p~15kkp_99~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy-in-see-photo~p~15kkp_99~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy-in-see-photo~p~15kkp_99~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy-in-see-photo~p~15kkp_99~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy-in-see-photo~p~15kkp_99~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy-in-see-photo~p~15kkp_99~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy-in-see-photo~p~15kkp_99~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy-in-see-photo~p~15kkp_99~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy~a~15kkp_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy~a~15kkp_2~600.1.jpg",
         },
       ],
     },
@@ -415,9 +415,9 @@ const products = [
         ColorCode: "99",
         ColorName: "See Photo",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/15kkp-99.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/15kkp-99.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy-in-see-photo~p~15kkp_99~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy-in-see-photo~p~15kkp_99~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Snuggle up under the stars with Kelty&#39;s 40&#176;F Cosmic sleeping bag, made from nylon taffeta with a DWR finish, toasty 600 <a class="glossaryTermLink" href="/fill-power~g~1840" title="Fill Power: - The number of cubic inches one ounce of down insulation occupies; also, a measurement of the down’s loft (fluffiness). The higher the fill power, the warmer it is. Choose the type of fill and use the fill power as a guideline to how warm or lofty you like your bedding.  Lightweight warmth has a 500-550 fill power. 550-600 fill power offers medium warmth and 600+ fill power is very warm.">fill power</a> DriDown&#174; insulation and a cozy <a class="glossaryTermLink" href="/mummy~g~1946" title="Mummy: - Mummy refers to the shape of sleeping bags designed to provide maximum warmth. Mummy-shaped bags taper from the head to the foot, reducing their volume and surface area, improving overall heat-retention properties. Mummy bags are typically more lightweight and take up less space than rectangular bags, which makes them ideal for backpacking.">mummy</a> shape`,
@@ -427,7 +427,7 @@ const products = [
       Url: "/brand/1105/",
       ProductsUrl: "/products?Brand=1105",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/kelty~b~1105~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/kelty~b~1105~160x100.jpg",
       Name: "Kelty",
     },
     ListPrice: 99.99,
@@ -449,13 +449,13 @@ const products = [
     Name: "Klymit Armored V Sleeping Pad - Inflatable",
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-armored-v-sleeping-pad-inflatable-in-lake-blue-black~p~832uc_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-armored-v-sleeping-pad-inflatable-in-lake-blue-black~p~832uc_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-armored-v-sleeping-pad-inflatable-in-lake-blue-black~p~832uc_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-armored-v-sleeping-pad-inflatable-in-lake-blue-black~p~832uc_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-armored-v-sleeping-pad-inflatable-in-lake-blue-black~p~832uc_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-armored-v-sleeping-pad-inflatable-in-lake-blue-black~p~832uc_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-armored-v-sleeping-pad-inflatable-in-lake-blue-black~p~832uc_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-armored-v-sleeping-pad-inflatable-in-lake-blue-black~p~832uc_01~600.jpg",
       ExtraImages: null,
     },
     SizesAvailable: {},
@@ -464,9 +464,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Lake Blue/Black",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/832uc-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/832uc-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-armored-v-sleeping-pad-inflatable-in-lake-blue-black~p~832uc_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-armored-v-sleeping-pad-inflatable-in-lake-blue-black~p~832uc_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. The adventure-proof pad made for catching shut-eye anywhere, Klymit&#39;s Armored V sleeping pad combines generous comfort with unmatched durability for the most rugged expeditions. on your agend`,
@@ -476,7 +476,7 @@ const products = [
       Url: "/brand/4173/",
       ProductsUrl: "/products/klymit?Brand=4173",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/klymit~b~4173~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/klymit~b~4173~160x100.jpg",
       Name: "Klymit",
     },
     ListPrice: 119.99,
@@ -498,17 +498,17 @@ const products = [
     Name: "Marmot 20° F Sorcerer Sleeping Bag - Mummy (For Women)",
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-patina-green~p~14hdf_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-patina-green~p~14hdf_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-patina-green~p~14hdf_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-patina-green~p~14hdf_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-patina-green~p~14hdf_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-patina-green~p~14hdf_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-patina-green~p~14hdf_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-patina-green~p~14hdf_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women~a~14hdf_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women~a~14hdf_2~600.1.jpg",
         },
       ],
     },
@@ -520,9 +520,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Patina Green",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/14hdf-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/14hdf-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-patina-green~p~14hdf_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-patina-green~p~14hdf_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. So lofty, you might just wonder if it&#39;s down. Marmot&#39;s 20&#176;F Sorcerer sleeping bag overlaps waves of cozy Thermaclime insulation to eliminate cold spots. And unlike down, the quality synthetic fill insulates and dries quickly when it gets wet`,
@@ -532,7 +532,7 @@ const products = [
       Url: "/brand/1308/",
       ProductsUrl: "/products?Brand=1308/",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/marmot~b~1308~160x100.jpg",
       Name: "Marmot",
     },
     ListPrice: 99.99,
@@ -555,13 +555,13 @@ const products = [
     Name: "Therm-a-Rest SpeedValve NeoAir® Trekker SV Sleeping Pad - Inflatable, Rectangular",
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/therm-a-rest-speedvalve-neoair-trekker-sv-sleeping-pad-inflatable-rectangular-in-green~p~640gx_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/therm-a-rest-speedvalve-neoair-trekker-sv-sleeping-pad-inflatable-rectangular-in-green~p~640gx_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/therm-a-rest-speedvalve-neoair-trekker-sv-sleeping-pad-inflatable-rectangular-in-green~p~640gx_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/therm-a-rest-speedvalve-neoair-trekker-sv-sleeping-pad-inflatable-rectangular-in-green~p~640gx_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/therm-a-rest-speedvalve-neoair-trekker-sv-sleeping-pad-inflatable-rectangular-in-green~p~640gx_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/therm-a-rest-speedvalve-neoair-trekker-sv-sleeping-pad-inflatable-rectangular-in-green~p~640gx_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/therm-a-rest-speedvalve-neoair-trekker-sv-sleeping-pad-inflatable-rectangular-in-green~p~640gx_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/therm-a-rest-speedvalve-neoair-trekker-sv-sleeping-pad-inflatable-rectangular-in-green~p~640gx_01~600.jpg",
       ExtraImages: null,
     },
     SizesAvailable: {},
@@ -570,9 +570,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Green",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/640gx-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/640gx-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/therm-a-rest-speedvalve-neoair-trekker-sv-sleeping-pad-inflatable-rectangular-in-green~p~640gx_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/therm-a-rest-speedvalve-neoair-trekker-sv-sleeping-pad-inflatable-rectangular-in-green~p~640gx_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. Exceptionally compact, lightweight and with ultra-fast inflation and deflation, the Therm-A-Rest SpeedValve Trekker SV sleeping pad is a cozy all-season camper with NeoAir&#174; construction for added warmth and stability`,
@@ -582,7 +582,7 @@ const products = [
       Url: "/brand/3177/",
       ProductsUrl: "/api/1.0/products/therm-a-rest~b~3177/",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/therm-a-rest~b~3177~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/therm-a-rest~b~3177~160x100.jpg",
       Name: "Therm-a-Rest",
     },
     ListPrice: 79.99,
@@ -604,17 +604,17 @@ const products = [
     Name: "Marmot 20° F Sorcerer Sleeping Bag - Mummy (For Women)",
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-arctic-navy~p~14hdh_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-arctic-navy~p~14hdh_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-arctic-navy~p~14hdh_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-arctic-navy~p~14hdh_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-arctic-navy~p~14hdh_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-arctic-navy~p~14hdh_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-arctic-navy~p~14hdh_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-arctic-navy~p~14hdh_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women~a~14hdh_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women~a~14hdh_2~600.1.jpg",
         },
       ],
     },
@@ -626,9 +626,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Arctic Navy",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/14hdh-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/14hdh-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-arctic-navy~p~14hdh_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-arctic-navy~p~14hdh_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. So lofty, you might just wonder if it&#39;s down. Marmot&#39;s 20&#176;F Sorcerer sleeping bag overlaps waves of cozy Thermaclime insulation to eliminate cold spots. And unlike down, the quality synthetic fill insulates and dries quickly when it gets wet`,
@@ -638,7 +638,7 @@ const products = [
       Url: "/brand/1308/",
       ProductsUrl: "/products?Brand=1308/",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/marmot~b~1308~160x100.jpg",
       Name: "Marmot",
     },
     ListPrice: 99.99,
@@ -660,17 +660,17 @@ const products = [
     Name: "Klymit Insulated Static V Sleeping Pad - Inflatable",
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-insulated-static-v-sleeping-pad-inflatable-in-recon~p~16pwv_02~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-insulated-static-v-sleeping-pad-inflatable-in-recon~p~16pwv_02~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-insulated-static-v-sleeping-pad-inflatable-in-recon~p~16pwv_02~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-insulated-static-v-sleeping-pad-inflatable-in-recon~p~16pwv_02~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-insulated-static-v-sleeping-pad-inflatable-in-recon~p~16pwv_02~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-insulated-static-v-sleeping-pad-inflatable-in-recon~p~16pwv_02~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-insulated-static-v-sleeping-pad-inflatable-in-recon~p~16pwv_02~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-insulated-static-v-sleeping-pad-inflatable-in-recon~p~16pwv_02~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-insulated-static-v-sleeping-pad-inflatable~a~16pwv_2~600.2.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-insulated-static-v-sleeping-pad-inflatable~a~16pwv_2~600.2.jpg",
         },
       ],
     },
@@ -680,9 +680,9 @@ const products = [
         ColorCode: "02",
         ColorName: "Recon",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/16pwv-02.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/16pwv-02.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/klymit-insulated-static-v-sleeping-pad-inflatable-in-recon~p~16pwv_02~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/klymit-insulated-static-v-sleeping-pad-inflatable-in-recon~p~16pwv_02~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Unwind under the stars any time of year with Klymit&#39;s Insulated Static V sleeping pad, made from durable materials with supportive raised V-chambers and 4.4 R-value warmth`,
@@ -692,7 +692,7 @@ const products = [
       Url: "/brand/4173/",
       ProductsUrl: "/products/klymit?Brand=4173",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/klymit~b~4173~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/klymit~b~4173~160x100.jpg",
       Name: "Klymit",
     },
     ListPrice: 59.99,
@@ -714,17 +714,17 @@ const products = [
     Name: "The North Face 15°F Hyper Kazoo Down Sleeping Bag - 800 Fill Power",
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power~a~20gcc_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power~a~20gcc_2~600.1.jpg",
         },
       ],
     },
@@ -736,9 +736,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Tnf Black/Saxony Blue",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/20gcc-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/20gcc-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Snuggle up under the stars with The North Face&#39;s 15&#176;F Hyper Kazoo down sleeping bag. It features toasty 800 <a class="glossaryTermLink" href="/fill-power~g~1840" title="Fill Power: - The number of cubic inches one ounce of down insulation occupies; also, a measurement of the down’s loft (fluffiness). The higher the fill power, the warmer it is. Choose the type of fill and use the fill power as a guideline to how warm or lofty you like your bedding.  Lightweight warmth has a 500-550 fill power. 550-600 fill power offers medium warmth and 600+ fill power is very warm.">fill power</a> ProDown goose down insulation with Thermobaffle technology to trap heat in the seamless baffles for unprecedented warmth`,
@@ -748,7 +748,7 @@ const products = [
       Url: "/brand/1440/",
       ProductsUrl: "/products?Brand=1440",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/the-north-face~b~1440~160x100.jpg",
       Name: "The North Face",
     },
     ListPrice: 229.99,
@@ -771,17 +771,17 @@ const products = [
     Name: "The North Face 20°F Campforter Long Down Sleeping Bag - 700 Fill Power, Mummy",
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy~a~20gaw_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy~a~20gaw_2~600.1.jpg",
         },
       ],
     },
@@ -793,9 +793,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Blue Wing Teal/Asphalt Grey",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/20gaw-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/20gaw-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Snuggle up under the stars with The North Face&#39;s 20&#176;F Campforter long down sleeping bag. It features toasty 700 <a class="glossaryTermLink" href="/fill-power~g~1840" title="Fill Power: - The number of cubic inches one ounce of down insulation occupies; also, a measurement of the down’s loft (fluffiness). The higher the fill power, the warmer it is. Choose the type of fill and use the fill power as a guideline to how warm or lofty you like your bedding.  Lightweight warmth has a 500-550 fill power. 550-600 fill power offers medium warmth and 600+ fill power is very warm.">fill power</a> ProDown goose down insulation, an anti-compression bottom filled with HeatSeeker&#174; Pro synthetic insulation and a wraparound zipper that offers easy venting and converts the bag into a quilt`,
@@ -805,7 +805,7 @@ const products = [
       Url: "/brand/1440/",
       ProductsUrl: "/products?Brand=1440",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/the-north-face~b~1440~160x100.jpg",
       Name: "The North Face",
     },
     ListPrice: 149.99,
@@ -827,13 +827,13 @@ const products = [
     Name: "Sierra Designs 2-Person Air Bed with Pump",
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~600.jpg",
       ExtraImages: null,
     },
     SizesAvailable: {},
@@ -842,9 +842,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Blue",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/19rky-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/19rky-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Nod off effortlessly in the tent on this Sierra Designs two-person air bed, with a flocked top for added comfort`,
@@ -854,7 +854,7 @@ const products = [
       Url: "/brand/1915/",
       ProductsUrl: "/products?Brand=1915",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/sierra-designs~b~1915~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/sierra-designs~b~1915~160x100.jpg",
       Name: "Sierra Designs",
     },
     ListPrice: 24.99,
@@ -877,25 +877,25 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-pivoter-27-l-backpack-in-tnf-black~p~20cxg_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-pivoter-27-l-backpack-in-tnf-black~p~20cxg_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-pivoter-27-l-backpack-in-tnf-black~p~20cxg_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-pivoter-27-l-backpack-in-tnf-black~p~20cxg_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-pivoter-27-l-backpack-in-tnf-black~p~20cxg_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-pivoter-27-l-backpack-in-tnf-black~p~20cxg_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-pivoter-27-l-backpack-in-tnf-black~p~20cxg_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-pivoter-27-l-backpack-in-tnf-black~p~20cxg_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-pivoter-27-l-backpack~a~20cxg_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-pivoter-27-l-backpack~a~20cxg_2~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-pivoter-27-l-backpack~a~20cxg_3~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-pivoter-27-l-backpack~a~20cxg_3~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-pivoter-27-l-backpack~a~20cxg_4~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-pivoter-27-l-backpack~a~20cxg_4~600.1.jpg",
         },
       ],
     },
@@ -905,9 +905,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Tnf Black",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/20cxg-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/20cxg-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-pivoter-27-l-backpack-in-tnf-black~p~20cxg_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-pivoter-27-l-backpack-in-tnf-black~p~20cxg_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Whether you&#39;re headed to class or hiking a new trail, The North Face&#39;s Pivoter backpack provides breathable, padded comfort with room for all the goodies, including your laptop`,
@@ -917,7 +917,7 @@ const products = [
       Url: "/brand/1440/",
       ProductsUrl: "/products?Brand=1440",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/the-north-face~b~1440~160x100.jpg",
       Name: "The North Face",
     },
     ListPrice: 39.99,
@@ -940,25 +940,25 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack~a~28upm_2~600.2.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-urban-assault-21l-backpack~a~28upm_2~600.2.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack~a~28upm_3~600.2.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-urban-assault-21l-backpack~a~28upm_3~600.2.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack~a~28upm_4~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-urban-assault-21l-backpack~a~28upm_4~600.1.jpg",
         },
       ],
     },
@@ -968,49 +968,49 @@ const products = [
         ColorCode: "08",
         ColorName: "Lemon",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upm-08.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/28upm-08.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~160.jpg",
       },
       {
         ColorCode: "03",
         ColorName: "Eggplant",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upm-03.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/28upm-03.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-eggplant~p~28upm_03~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-urban-assault-21l-backpack-in-eggplant~p~28upm_03~160.jpg",
       },
       {
         ColorCode: "05",
         ColorName: "Forest",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upm-05.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/28upm-05.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-forest~p~28upm_05~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-urban-assault-21l-backpack-in-forest~p~28upm_05~160.jpg",
       },
       {
         ColorCode: "01",
         ColorName: "Coyote",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upm-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/28upm-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-coyote~p~28upm_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-urban-assault-21l-backpack-in-coyote~p~28upm_01~160.jpg",
       },
       {
         ColorCode: "04",
         ColorName: "Flame",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upm-04.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/28upm-04.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-flame~p~28upm_04~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-urban-assault-21l-backpack-in-flame~p~28upm_04~160.jpg",
       },
       {
         ColorCode: "09",
         ColorName: "Mystery Pop",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upm-09.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/28upm-09.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-mystery-pop~p~28upm_09~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-urban-assault-21l-backpack-in-mystery-pop~p~28upm_09~160.jpg",
       },
     ],
     DescriptionHtmlSimple:
@@ -1021,7 +1021,7 @@ const products = [
       Url: "/brand/37083/",
       ProductsUrl: "/products?Brand=37083",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/mystery-ranch-logo.svg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/mystery-ranch-logo.svg",
       Name: "Mystery Ranch",
     },
     ListPrice: 69.99,
@@ -1044,17 +1044,17 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-router-transit-backpack-41-l~a~20faj_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-router-transit-backpack-41-l~a~20faj_2~600.1.jpg",
         },
       ],
     },
@@ -1064,9 +1064,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Zinc Grey Heather/Tnf Black",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/20faj-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/20faj-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. From local commutes to weekend travels, The North Face Router Transit backpack offers plenty of storage for all your travel needs`,
@@ -1076,7 +1076,7 @@ const products = [
       Url: "/brand/1440/",
       ProductsUrl: "/products?Brand=1440",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/the-north-face~b~1440~160x100.jpg",
       Name: "The North Face",
     },
     ListPrice: 69.99,
@@ -1099,25 +1099,25 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-45-adjustable-backpack-in-prairie-orange~p~889pr_02~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-stout-45-adjustable-backpack-in-prairie-orange~p~889pr_02~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-45-adjustable-backpack-in-prairie-orange~p~889pr_02~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-stout-45-adjustable-backpack-in-prairie-orange~p~889pr_02~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-45-adjustable-backpack-in-prairie-orange~p~889pr_02~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-stout-45-adjustable-backpack-in-prairie-orange~p~889pr_02~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-45-adjustable-backpack-in-prairie-orange~p~889pr_02~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-stout-45-adjustable-backpack-in-prairie-orange~p~889pr_02~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-45-adjustable-backpack~a~889pr_2~600.3.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-stout-45-adjustable-backpack~a~889pr_2~600.3.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-45-adjustable-backpack~a~889pr_3~600.3.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-stout-45-adjustable-backpack~a~889pr_3~600.3.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-45-adjustable-backpack~a~889pr_4~600.3.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-stout-45-adjustable-backpack~a~889pr_4~600.3.jpg",
         },
       ],
     },
@@ -1127,17 +1127,17 @@ const products = [
         ColorCode: "02",
         ColorName: "Prairie Orange",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/889pr-02.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/889pr-02.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-45-adjustable-backpack-in-prairie-orange~p~889pr_02~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-stout-45-adjustable-backpack-in-prairie-orange~p~889pr_02~160.jpg",
       },
       {
         ColorCode: "01",
         ColorName: "Navy Blue",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/889pr-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/889pr-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-45-adjustable-backpack-in-navy-blue~p~889pr_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-stout-45-adjustable-backpack-in-navy-blue~p~889pr_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. Supportive and smartly designed, Gregory&#39;s Stout 35 backpack features a TrailFlex wishbone suspension so it carries comfortably when fully loaded. A roomy, yet compact option well-suited to weekend backpacking trips through technical terrain`,
@@ -1147,7 +1147,7 @@ const products = [
       Url: "/brand/7155/",
       ProductsUrl: "/products?Brand=7155",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/gregory~b~7155~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/gregory~b~7155~160x100.jpg",
       Name: "Gregory",
     },
     ListPrice: 99.99,
@@ -1170,25 +1170,25 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame~a~665hd_2~600.2.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-maven-45l-backpack-internal-frame~a~665hd_2~600.2.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame~a~665hd_3~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-maven-45l-backpack-internal-frame~a~665hd_3~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame~a~665hd_4~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-maven-45l-backpack-internal-frame~a~665hd_4~600.1.jpg",
         },
       ],
     },
@@ -1200,17 +1200,17 @@ const products = [
         ColorCode: "02",
         ColorName: "Phoenix Red",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/665hd-02.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/665hd-02.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~160.jpg",
       },
       {
         ColorCode: "03",
         ColorName: "Forest Grey",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/665hd-03.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/665hd-03.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-forest-grey~p~665hd_03~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-maven-45l-backpack-internal-frame-in-forest-grey~p~665hd_03~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. The perfect lightweight companion for peak-bagging and minimalist overnighting, Gregory&#39;s Maven 45L backpack is well-balanced with alloy anti-barreling stays and an HDPE sheet for firm support`,
@@ -1220,7 +1220,7 @@ const products = [
       Url: "/brand/7155/",
       ProductsUrl: "/products?Brand=7155",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/gregory~b~7155~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/gregory~b~7155~160x100.jpg",
       Name: "Gregory",
     },
     ListPrice: 99.99,
@@ -1243,21 +1243,21 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32l-backpack-for-women-in-black~p~28upu_02~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32l-backpack-for-women-in-black~p~28upu_02~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32l-backpack-for-women-in-black~p~28upu_02~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32l-backpack-for-women-in-black~p~28upu_02~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32l-backpack-for-women-in-black~p~28upu_02~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32l-backpack-for-women-in-black~p~28upu_02~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32l-backpack-for-women-in-black~p~28upu_02~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32l-backpack-for-women-in-black~p~28upu_02~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32l-backpack-for-women~a~28upu_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32l-backpack-for-women~a~28upu_2~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32l-backpack-for-women~a~28upu_3~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32l-backpack-for-women~a~28upu_3~600.1.jpg",
         },
       ],
     },
@@ -1269,17 +1269,17 @@ const products = [
         ColorCode: "02",
         ColorName: "Black",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upu-02.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/28upu-02.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32l-backpack-for-women-in-black~p~28upu_02~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32l-backpack-for-women-in-black~p~28upu_02~160.jpg",
       },
       {
         ColorCode: "01",
         ColorName: "Henna",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upu-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/28upu-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32l-backpack-for-women-in-henna~p~28upu_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32l-backpack-for-women-in-henna~p~28upu_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple:
@@ -1290,7 +1290,7 @@ const products = [
       Url: "/brand/37083/",
       ProductsUrl: "/products?Brand=37083",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/mystery-ranch-logo.svg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/mystery-ranch-logo.svg",
       Name: "Mystery Ranch",
     },
     ListPrice: 119.99,
@@ -1313,21 +1313,21 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-zulu-55-backpack-internal-frame-in-moss-green~p~223rn_02~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-zulu-55-backpack-internal-frame-in-moss-green~p~223rn_02~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-zulu-55-backpack-internal-frame-in-moss-green~p~223rn_02~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-zulu-55-backpack-internal-frame-in-moss-green~p~223rn_02~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-zulu-55-backpack-internal-frame-in-moss-green~p~223rn_02~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-zulu-55-backpack-internal-frame-in-moss-green~p~223rn_02~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-zulu-55-backpack-internal-frame-in-moss-green~p~223rn_02~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-zulu-55-backpack-internal-frame-in-moss-green~p~223rn_02~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-zulu-55-backpack-internal-frame~a~223rn_2~600.2.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-zulu-55-backpack-internal-frame~a~223rn_2~600.2.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-zulu-55-backpack-internal-frame~a~223rn_3~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-zulu-55-backpack-internal-frame~a~223rn_3~600.1.jpg",
         },
       ],
     },
@@ -1339,17 +1339,17 @@ const products = [
         ColorCode: "02",
         ColorName: "Moss Green",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/223rn-02.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/223rn-02.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-zulu-55-backpack-internal-frame-in-moss-green~p~223rn_02~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-zulu-55-backpack-internal-frame-in-moss-green~p~223rn_02~160.jpg",
       },
       {
         ColorCode: "03",
         ColorName: "Feldspar Grey",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/223rn-03.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/223rn-03.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-zulu-55-backpack-internal-frame-in-feldspar-grey~p~223rn_03~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-zulu-55-backpack-internal-frame-in-feldspar-grey~p~223rn_03~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. Gregory&#39;s Zulu 55 backpack boasts a streamlined, yet spacious design ideal for weekend trips and winter overnights. The highly breathable CrossFlo DTS suspension system keeps air circulating across your back, and the bottom compartment offers easy access to your sleeping bag`,
@@ -1359,7 +1359,7 @@ const products = [
       Url: "/brand/7155/",
       ProductsUrl: "/products?Brand=7155",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/gregory~b~7155~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/gregory~b~7155~160x100.jpg",
       Name: "Gregory",
     },
     ListPrice: 129.99,
@@ -1382,17 +1382,17 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-siro-50l-backpack-internal-frame-in-woodbine~p~445fj_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-siro-50l-backpack-internal-frame-in-woodbine~p~445fj_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-siro-50l-backpack-internal-frame-in-woodbine~p~445fj_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-siro-50l-backpack-internal-frame-in-woodbine~p~445fj_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-siro-50l-backpack-internal-frame-in-woodbine~p~445fj_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-siro-50l-backpack-internal-frame-in-woodbine~p~445fj_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-siro-50l-backpack-internal-frame-in-woodbine~p~445fj_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-siro-50l-backpack-internal-frame-in-woodbine~p~445fj_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-siro-50l-backpack-internal-frame~a~445fj_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-siro-50l-backpack-internal-frame~a~445fj_2~600.1.jpg",
         },
       ],
     },
@@ -1404,17 +1404,17 @@ const products = [
         ColorCode: "01",
         ColorName: "Woodbine",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/445fj-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/445fj-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-siro-50l-backpack-internal-frame-in-woodbine~p~445fj_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-siro-50l-backpack-internal-frame-in-woodbine~p~445fj_01~160.jpg",
       },
       {
         ColorCode: "02",
         ColorName: "Black",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/445fj-02.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/445fj-02.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-siro-50l-backpack-internal-frame-in-black~p~445fj_02~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/kelty-siro-50l-backpack-internal-frame-in-black~p~445fj_02~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/overstock~g~2313" title="Overstock: - A surplus quantity of items that exceeded the vendor’s ability to sell them during the season for which they were intended. Overstocks are purchased by companies like Sierra Trading Post to help vendors clear out excess inventory. Original retail prices on overstocks are drastically reduced for sale, and quality is always first-rate.">Overstock</a></strong>. Lightweight and streamlined, Kelty&#39;s 45L Siro backpack offers a FeatherFIT suspension system with a suspended AirMesh back panel and integrated lumbar support to keep you in comfort on the long haul`,
@@ -1424,7 +1424,7 @@ const products = [
       Url: "/brand/1105/",
       ProductsUrl: "/products?Brand=1105",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/kelty~b~1105~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/kelty~b~1105~160x100.jpg",
       Name: "Kelty",
     },
     ListPrice: 119.99,
@@ -1447,17 +1447,17 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-amber-60l-backpack-for-women~a~889dc_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-amber-60l-backpack-for-women~a~889dc_2~600.1.jpg",
         },
       ],
     },
@@ -1467,9 +1467,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Pearl Blue",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/889dc-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/889dc-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. The features, TrailFlex suspension and 60-liter capacity of the Gregory Amber 60L backpack combine to hit a sweet spot -- this versatile backpack can cover quick over-night trips and multi-day hikes with equal ease`,
@@ -1479,7 +1479,7 @@ const products = [
       Url: "/brand/7155/",
       ProductsUrl: "/products?Brand=7155",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/gregory~b~7155~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/gregory~b~7155~160x100.jpg",
       Name: "Gregory",
     },
     ListPrice: 129.99,
@@ -1503,25 +1503,25 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women-in-egyptian-blue~p~31pyk_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women-in-egyptian-blue~p~31pyk_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women-in-egyptian-blue~p~31pyk_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women-in-egyptian-blue~p~31pyk_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women-in-egyptian-blue~p~31pyk_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women-in-egyptian-blue~p~31pyk_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women-in-egyptian-blue~p~31pyk_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women-in-egyptian-blue~p~31pyk_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women~a~31pyk_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women~a~31pyk_2~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women~a~31pyk_3~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women~a~31pyk_3~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women~a~31pyk_4~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women~a~31pyk_4~600.1.jpg",
         },
       ],
     },
@@ -1531,9 +1531,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Egyptian Blue",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/31pyk-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/31pyk-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women-in-egyptian-blue~p~31pyk_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women-in-egyptian-blue~p~31pyk_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. Designed specifically for the committed female backpacker, Gregory&#39;s Deva 60 L backpack features exclusive Response A3 Suspension technology, allowing you to fully customize your fit for maximum carrying comfort and stability with heavy loads`,
@@ -1543,7 +1543,7 @@ const products = [
       Url: "/brand/7155/",
       ProductsUrl: "/products?Brand=7155",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/gregory~b~7155~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/gregory~b~7155~160x100.jpg",
       Name: "Gregory",
     },
     ListPrice: 199.99,
@@ -1566,25 +1566,25 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-borealis-28-l-backpack-in-tnf-black-light-directional-heather-tnf-yellow~p~20cxc_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-borealis-28-l-backpack-in-tnf-black-light-directional-heather-tnf-yellow~p~20cxc_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-borealis-28-l-backpack-in-tnf-black-light-directional-heather-tnf-yellow~p~20cxc_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-borealis-28-l-backpack-in-tnf-black-light-directional-heather-tnf-yellow~p~20cxc_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-borealis-28-l-backpack-in-tnf-black-light-directional-heather-tnf-yellow~p~20cxc_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-borealis-28-l-backpack-in-tnf-black-light-directional-heather-tnf-yellow~p~20cxc_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-borealis-28-l-backpack-in-tnf-black-light-directional-heather-tnf-yellow~p~20cxc_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-borealis-28-l-backpack-in-tnf-black-light-directional-heather-tnf-yellow~p~20cxc_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-borealis-28-l-backpack~a~20cxc_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-borealis-28-l-backpack~a~20cxc_2~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-borealis-28-l-backpack~a~20cxc_3~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-borealis-28-l-backpack~a~20cxc_3~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-borealis-28-l-backpack~a~20cxc_4~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-borealis-28-l-backpack~a~20cxc_4~600.1.jpg",
         },
       ],
     },
@@ -1594,9 +1594,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Tnf Black Light Directional Heather/Tnf Yellow",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/20cxc-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/20cxc-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-borealis-28-l-backpack-in-tnf-black-light-directional-heather-tnf-yellow~p~20cxc_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-borealis-28-l-backpack-in-tnf-black-light-directional-heather-tnf-yellow~p~20cxc_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. Streamlined and ready for action, The North Face Borealis backpack is perfect for daily activities and quick road trips. It has FlexVent padded shoulder straps, a padded back panel and lined compartments for your 15&quot; laptop and tablet computer`,
@@ -1606,7 +1606,7 @@ const products = [
       Url: "/brand/1440/",
       ProductsUrl: "/products?Brand=1440",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/the-north-face~b~1440~160x100.jpg",
       Name: "The North Face",
     },
     ListPrice: 39,
@@ -1629,25 +1629,25 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack~a~28upr_2~600.2.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32-l-backpack~a~28upr_2~600.2.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack~a~28upr_3~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32-l-backpack~a~28upr_3~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack~a~28upr_4~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32-l-backpack~a~28upr_4~600.1.jpg",
         },
       ],
     },
@@ -1659,17 +1659,17 @@ const products = [
         ColorCode: "01",
         ColorName: "Cargo",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upr-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/28upr-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~160.jpg",
       },
       {
         ColorCode: "02",
         ColorName: "Galaxy",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upr-02.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/28upr-02.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-galaxy~p~28upr_02~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/mystery-ranch-scree-32-l-backpack-in-galaxy~p~28upr_02~160.jpg",
       },
     ],
     DescriptionHtmlSimple:
@@ -1680,7 +1680,7 @@ const products = [
       Url: "/brand/37083/",
       ProductsUrl: "/products?Brand=37083",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/mystery-ranch-logo.svg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/mystery-ranch-logo.svg",
       Name: "Mystery Ranch",
     },
     ListPrice: 119.99,
@@ -1703,21 +1703,21 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-65l-backpack~a~889kt_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-stout-65l-backpack~a~889kt_2~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-65l-backpack~a~889kt_3~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-stout-65l-backpack~a~889kt_3~600.1.jpg",
         },
       ],
     },
@@ -1727,9 +1727,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Navy Blue",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/889kt-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/889kt-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>.<strong> </strong>Built for multi-day trips and globe-trotting travel, the Gregory Stout 65L backpack has all the comfort, advanced pack technology and organizing features you expect from the backpack experts at Gregory`,
@@ -1739,7 +1739,7 @@ const products = [
       Url: "/brand/7155/",
       ProductsUrl: "/products?Brand=7155",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/gregory~b~7155~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/gregory~b~7155~160x100.jpg",
       Name: "Gregory",
     },
     ListPrice: 129.99,
@@ -1762,41 +1762,41 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-65-l-backpack-in-tnf-dark-grey-heather-new-taupe-green~p~20drp_02~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-65-l-backpack-in-tnf-dark-grey-heather-new-taupe-green~p~20drp_02~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-65-l-backpack-in-tnf-dark-grey-heather-new-taupe-green~p~20drp_02~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-65-l-backpack-in-tnf-dark-grey-heather-new-taupe-green~p~20drp_02~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-65-l-backpack-in-tnf-dark-grey-heather-new-taupe-green~p~20drp_02~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-65-l-backpack-in-tnf-dark-grey-heather-new-taupe-green~p~20drp_02~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-65-l-backpack-in-tnf-dark-grey-heather-new-taupe-green~p~20drp_02~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-65-l-backpack-in-tnf-dark-grey-heather-new-taupe-green~p~20drp_02~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-65-l-backpack~a~20drp_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-65-l-backpack~a~20drp_2~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-65-l-backpack~a~20drp_3~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-65-l-backpack~a~20drp_3~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-65-l-backpack~a~20drp_4~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-65-l-backpack~a~20drp_4~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-65-l-backpack~a~20drp_5~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-65-l-backpack~a~20drp_5~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-65-l-backpack~a~20drp_6~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-65-l-backpack~a~20drp_6~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-65-l-backpack~a~20drp_7~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-65-l-backpack~a~20drp_7~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-65-l-backpack~a~20drp_8~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-65-l-backpack~a~20drp_8~600.1.jpg",
         },
       ],
     },
@@ -1808,17 +1808,17 @@ const products = [
         ColorCode: "02",
         ColorName: "Tnf Dark Grey Heather/New Taupe Green",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/20drp-02.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/20drp-02.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-65-l-backpack-in-tnf-dark-grey-heather-new-taupe-green~p~20drp_02~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-65-l-backpack-in-tnf-dark-grey-heather-new-taupe-green~p~20drp_02~160.jpg",
       },
       {
         ColorCode: "03",
         ColorName: "Zion Orange/Shady Blue",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/20drp-03.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/20drp-03.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-65-l-backpack-in-zion-orange-shady-blue~p~20drp_03~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-65-l-backpack-in-zion-orange-shady-blue~p~20drp_03~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Built for all-day comfort on the trail, The North Face&#39;s Terra 65 L backpack features a lightweight design with a versatile floating lid, comfortable cushioned back, self-equalizing Dyno Lift System load lifters and a spacious interior to hold your gear`,
@@ -1828,7 +1828,7 @@ const products = [
       Url: "/brand/1440/",
       ProductsUrl: "/products?Brand=1440",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/the-north-face~b~1440~160x100.jpg",
       Name: "The North Face",
     },
     ListPrice: 129.99,
@@ -1851,21 +1851,21 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women~a~20drd_2~600.2.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-40-l-backpack-for-women~a~20drd_2~600.2.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women~a~20drd_3~600.2.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-40-l-backpack-for-women~a~20drd_3~600.2.jpg",
         },
       ],
     },
@@ -1877,9 +1877,9 @@ const products = [
         ColorCode: "03",
         ColorName: "Rabbit Grey/Asphalt Grey",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/20drd-03.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/20drd-03.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Built for all-day comfort on the trail, The North Face&#39;s Terra 40 L backpack features a lightweight design with a versatile floating lid, comfortable cushioned back, self-equalizing Dyno Lift System load lifters and a spacious interior to hold your gear`,
@@ -1889,7 +1889,7 @@ const products = [
       Url: "/brand/1440/",
       ProductsUrl: "/products?Brand=1440",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/the-north-face~b~1440~160x100.jpg",
       Name: "The North Face",
     },
     ListPrice: 79.99,
@@ -1912,25 +1912,25 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-assault-tent-3-person-3-season-in-summit-gold-asphalt-grey~p~989ch_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-assault-tent-3-person-3-season-in-summit-gold-asphalt-grey~p~989ch_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-assault-tent-3-person-3-season-in-summit-gold-asphalt-grey~p~989ch_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-assault-tent-3-person-3-season-in-summit-gold-asphalt-grey~p~989ch_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-assault-tent-3-person-3-season-in-summit-gold-asphalt-grey~p~989ch_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-assault-tent-3-person-3-season-in-summit-gold-asphalt-grey~p~989ch_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-assault-tent-3-person-3-season-in-summit-gold-asphalt-grey~p~989ch_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-assault-tent-3-person-3-season-in-summit-gold-asphalt-grey~p~989ch_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-assault-tent-3-person-3-season~a~989ch_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-assault-tent-3-person-3-season~a~989ch_2~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-assault-tent-3-person-3-season~a~989ch_3~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-assault-tent-3-person-3-season~a~989ch_3~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-assault-tent-3-person-3-season~a~989ch_4~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-assault-tent-3-person-3-season~a~989ch_4~600.1.jpg",
         },
       ],
     },
@@ -1940,9 +1940,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Summit Gold/Asphalt Grey",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/989ch-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/989ch-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-assault-tent-3-person-3-season-in-summit-gold-asphalt-grey~p~989ch_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-assault-tent-3-person-3-season-in-summit-gold-asphalt-grey~p~989ch_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Get a good night&#39;s rest on the trail with The North Face&#39;s Assault tent, featuring waterproof DryWall laminate construction with breathable top vents, plenty of hanging tabs and an advanced DAC <a class="glossaryTermLink" href="/featherlite~g~1835" title="Featherlite: - Unusually strong aluminum poles used for tents. DAC Featherlite tent poles use a system of three small metal sleeves to give the poles added strength and flex, while keeping them as lightweight as possible. Up to 15% lighter than aluminum poles of comparable strength, Featherlite poles are the strongest joint system built for tents.">Featherlite</a> NSL pole system in a rugged, single-wall design perfect for high-altitudes camps`,
@@ -1952,7 +1952,7 @@ const products = [
       Url: "/brand/1440/",
       ProductsUrl: "/products?Brand=1440",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/the-north-face~b~1440~160x100.jpg",
       Name: "The North Face",
     },
     ListPrice: 349.99,
@@ -1975,21 +1975,21 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-2-person-3-season~a~880rt_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-ajax-tent-2-person-3-season~a~880rt_2~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-2-person-3-season~a~880rt_3~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-ajax-tent-2-person-3-season~a~880rt_3~600.1.jpg",
         },
       ],
     },
@@ -1999,9 +1999,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Pale Pumpkin/Terracotta",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/880rt-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/880rt-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple:
@@ -2012,7 +2012,7 @@ const products = [
       Url: "/brand/1308/",
       ProductsUrl: "/products?Brand=1308/",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/marmot~b~1308~160x100.jpg",
       Name: "Marmot",
     },
     ListPrice: 179.99,
@@ -2035,21 +2035,21 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-3-person-3-season~a~880rr_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-ajax-tent-3-person-3-season~a~880rr_2~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-3-person-3-season~a~880rr_3~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-ajax-tent-3-person-3-season~a~880rr_3~600.1.jpg",
         },
       ],
     },
@@ -2059,9 +2059,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Pale Pumpkin/Terracotta",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/880rr-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/880rr-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple:
@@ -2072,7 +2072,7 @@ const products = [
       Url: "/brand/1308/",
       ProductsUrl: "/products?Brand=1308/",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/marmot~b~1308~160x100.jpg",
       Name: "Marmot",
     },
     ListPrice: 199.99,
@@ -2095,25 +2095,25 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season-in-chevron~p~543dr_02~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cloudveil-pop-up-system-tent-3-person-3-season-in-chevron~p~543dr_02~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season-in-chevron~p~543dr_02~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cloudveil-pop-up-system-tent-3-person-3-season-in-chevron~p~543dr_02~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season-in-chevron~p~543dr_02~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cloudveil-pop-up-system-tent-3-person-3-season-in-chevron~p~543dr_02~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season-in-chevron~p~543dr_02~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cloudveil-pop-up-system-tent-3-person-3-season-in-chevron~p~543dr_02~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season~a~543dr_2~600.3.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cloudveil-pop-up-system-tent-3-person-3-season~a~543dr_2~600.3.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season~a~543dr_3~600.2.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cloudveil-pop-up-system-tent-3-person-3-season~a~543dr_3~600.2.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season~a~543dr_5~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cloudveil-pop-up-system-tent-3-person-3-season~a~543dr_5~600.1.jpg",
         },
       ],
     },
@@ -2123,25 +2123,25 @@ const products = [
         ColorCode: "02",
         ColorName: "Chevron",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/543dr-02.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/543dr-02.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season-in-chevron~p~543dr_02~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cloudveil-pop-up-system-tent-3-person-3-season-in-chevron~p~543dr_02~160.jpg",
       },
       {
         ColorCode: "01",
         ColorName: "Hemlock",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/543dr-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/543dr-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season-in-hemlock~p~543dr_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cloudveil-pop-up-system-tent-3-person-3-season-in-hemlock~p~543dr_01~160.jpg",
       },
       {
         ColorCode: "03",
         ColorName: "Scribble Tree",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/543dr-03.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/543dr-03.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season-in-scribble-tree~p~543dr_03~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cloudveil-pop-up-system-tent-3-person-3-season-in-scribble-tree~p~543dr_03~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. Get ready for sleep without too much hassle -- Cloudveil&#39;s Pop-Up System tent is incredibly easy to setup with a pop-up design`,
@@ -2151,7 +2151,7 @@ const products = [
       Url: "/brand/3204/",
       ProductsUrl: "/products?Brand=3204",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/cloudveil~b~3204~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/cloudveil~b~3204~160x100.jpg",
       Name: "Cloudveil",
     },
     ListPrice: 49.99,
@@ -2174,21 +2174,21 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-homestead-shelter-in-shady-blue-papaya-orange~p~985md_03~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-homestead-shelter-in-shady-blue-papaya-orange~p~985md_03~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-homestead-shelter-in-shady-blue-papaya-orange~p~985md_03~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-homestead-shelter-in-shady-blue-papaya-orange~p~985md_03~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-homestead-shelter-in-shady-blue-papaya-orange~p~985md_03~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-homestead-shelter-in-shady-blue-papaya-orange~p~985md_03~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-homestead-shelter-in-shady-blue-papaya-orange~p~985md_03~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-homestead-shelter-in-shady-blue-papaya-orange~p~985md_03~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-homestead-shelter~a~985md_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-homestead-shelter~a~985md_2~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-homestead-shelter~a~985md_3~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-homestead-shelter~a~985md_3~600.1.jpg",
         },
       ],
     },
@@ -2198,9 +2198,9 @@ const products = [
         ColorCode: "03",
         ColorName: "Shady Blue/Papaya Orange",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/985md-03.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/985md-03.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-homestead-shelter-in-shady-blue-papaya-orange~p~985md_03~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-homestead-shelter-in-shady-blue-papaya-orange~p~985md_03~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. From your backyard to the campsite, you&#39;ll create the ultimate social hub with The North Face&#39;s Homestead shelter. It features an easy-pitch design with zip-off mesh doors and a wide opening so it can fit around a picnic table`,
@@ -2210,7 +2210,7 @@ const products = [
       Url: "/brand/1440/",
       ProductsUrl: "/products?Brand=1440",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/the-north-face~b~1440~160x100.jpg",
       Name: "The North Face",
     },
     ListPrice: 199.99,
@@ -2233,17 +2233,17 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cedar-ridge-rimrock-tent-6-person-3-season-in-rust-clay~p~344yk_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cedar-ridge-rimrock-tent-6-person-3-season-in-rust-clay~p~344yk_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cedar-ridge-rimrock-tent-6-person-3-season-in-rust-clay~p~344yk_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cedar-ridge-rimrock-tent-6-person-3-season-in-rust-clay~p~344yk_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cedar-ridge-rimrock-tent-6-person-3-season-in-rust-clay~p~344yk_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cedar-ridge-rimrock-tent-6-person-3-season-in-rust-clay~p~344yk_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cedar-ridge-rimrock-tent-6-person-3-season-in-rust-clay~p~344yk_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cedar-ridge-rimrock-tent-6-person-3-season-in-rust-clay~p~344yk_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cedar-ridge-rimrock-tent-6-person-3-season~a~344yk_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cedar-ridge-rimrock-tent-6-person-3-season~a~344yk_2~600.1.jpg",
         },
       ],
     },
@@ -2253,9 +2253,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Rust/Clay",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/344yk-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/344yk-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cedar-ridge-rimrock-tent-6-person-3-season-in-rust-clay~p~344yk_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cedar-ridge-rimrock-tent-6-person-3-season-in-rust-clay~p~344yk_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. Lightweight and ready for adventure, this Cedar Ridge Rimrock tent boasts a weather-ready design that includes a tub-style floor and factory-sealed <a class="glossaryTermLink" href="/rain-fly~g~2021" title="Rain Fly: - Rain fly is an additional piece of fabric (attached or unattached) that is placed over the top of the tent to provide weatherproofness. The rain fly is usually made of polyester or nylon and is sometimes coated for additional water repellency.">rain fly</a>`,
@@ -2265,7 +2265,7 @@ const products = [
       Url: "/brand/35027/",
       ProductsUrl: "/products?Brand=35027",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/cedar-ridge~b~35027~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/cedar-ridge~b~35027~160x100.jpg",
       Name: "Cedar Ridge",
     },
     ListPrice: 99.99,
@@ -2288,21 +2288,21 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-tent-3-person-4-season~a~985pr_2~600.2.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-alpine-guide-tent-3-person-4-season~a~985pr_2~600.2.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-tent-3-person-4-season~a~985pr_3~600.2.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-alpine-guide-tent-3-person-4-season~a~985pr_3~600.2.jpg",
         },
       ],
     },
@@ -2312,9 +2312,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Canary Yellow/High Rise Grey",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/985pr-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/985pr-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Be ready for any outdoor adventure in low elevations and high-alpine environments alike with the hybrid design of The North Face&#39;s Alpine Guide four-season tent. It is made from durable, waterproof nylon ripstop with an advanced DAC&#174; <a class="glossaryTermLink" href="/featherlite~g~1835" title="Featherlite: - Unusually strong aluminum poles used for tents. DAC Featherlite tent poles use a system of three small metal sleeves to give the poles added strength and flex, while keeping them as lightweight as possible. Up to 15% lighter than aluminum poles of comparable strength, Featherlite poles are the strongest joint system built for tents.">Featherlite</a> NSL pole system and an easy to pitch design`,
@@ -2324,7 +2324,7 @@ const products = [
       Url: "/brand/1440/",
       ProductsUrl: "/products?Brand=1440",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/the-north-face~b~1440~160x100.jpg",
       Name: "The North Face",
     },
     ListPrice: 349.99,
@@ -2347,17 +2347,17 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cedar-ridge-rimrock-tent-2-person-3-season~a~344yj_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cedar-ridge-rimrock-tent-2-person-3-season~a~344yj_2~600.1.jpg",
         },
       ],
     },
@@ -2367,9 +2367,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Rust/Clay",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/344yj-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/344yj-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. Lightweight and ready for adventure, this Cedar Ridge Rimrock tent boasts a weather-ready design that includes a tub-style floor and factory-sealed <a class="glossaryTermLink" href="/rain-fly~g~2021" title="Rain Fly: - Rain fly is an additional piece of fabric (attached or unattached) that is placed over the top of the tent to provide weatherproofness. The rain fly is usually made of polyester or nylon and is sometimes coated for additional water repellency.">rain fly</a>`,
@@ -2379,7 +2379,7 @@ const products = [
       Url: "/brand/35027/",
       ProductsUrl: "/products?Brand=35027",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/cedar-ridge~b~35027~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/cedar-ridge~b~35027~160x100.jpg",
       Name: "Cedar Ridge",
     },
     ListPrice: 49,
@@ -2402,21 +2402,21 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-talus-tent-3-person-3-season-in-golden-oak-saffron-yellow~p~989cg_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-talus-tent-3-person-3-season-in-golden-oak-saffron-yellow~p~989cg_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-talus-tent-3-person-3-season-in-golden-oak-saffron-yellow~p~989cg_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-talus-tent-3-person-3-season-in-golden-oak-saffron-yellow~p~989cg_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-talus-tent-3-person-3-season-in-golden-oak-saffron-yellow~p~989cg_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-talus-tent-3-person-3-season-in-golden-oak-saffron-yellow~p~989cg_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-talus-tent-3-person-3-season-in-golden-oak-saffron-yellow~p~989cg_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-talus-tent-3-person-3-season-in-golden-oak-saffron-yellow~p~989cg_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-talus-tent-3-person-3-season~a~989cg_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-talus-tent-3-person-3-season~a~989cg_2~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-talus-tent-3-person-3-season~a~989cg_3~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-talus-tent-3-person-3-season~a~989cg_3~600.1.jpg",
         },
       ],
     },
@@ -2426,9 +2426,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Golden Oak/Saffron Yellow",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/989cg-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/989cg-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-talus-tent-3-person-3-season-in-golden-oak-saffron-yellow~p~989cg_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-talus-tent-3-person-3-season-in-golden-oak-saffron-yellow~p~989cg_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Enjoy a fun night under stars with your favorite people in The North Face&#39;s Talus three-person tent, featuring durable construction with a roomy interior, an advanced DAC <a class="glossaryTermLink" href="/featherlite~g~1835" title="Featherlite: - Unusually strong aluminum poles used for tents. DAC Featherlite tent poles use a system of three small metal sleeves to give the poles added strength and flex, while keeping them as lightweight as possible. Up to 15% lighter than aluminum poles of comparable strength, Featherlite poles are the strongest joint system built for tents.">Featherlite</a> NSL pole system and an easy to pitch design`,
@@ -2438,7 +2438,7 @@ const products = [
       Url: "/brand/1440/",
       ProductsUrl: "/products?Brand=1440",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/the-north-face~b~1440~160x100.jpg",
       Name: "The North Face",
     },
     ListPrice: 179.99,
@@ -2461,13 +2461,13 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-homestead-sun-shade-in-vintage-white-desert-floral-print~p~985ku_02~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-homestead-sun-shade-in-vintage-white-desert-floral-print~p~985ku_02~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-homestead-sun-shade-in-vintage-white-desert-floral-print~p~985ku_02~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-homestead-sun-shade-in-vintage-white-desert-floral-print~p~985ku_02~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-homestead-sun-shade-in-vintage-white-desert-floral-print~p~985ku_02~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-homestead-sun-shade-in-vintage-white-desert-floral-print~p~985ku_02~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-homestead-sun-shade-in-vintage-white-desert-floral-print~p~985ku_02~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-homestead-sun-shade-in-vintage-white-desert-floral-print~p~985ku_02~600.jpg",
       ExtraImages: null,
     },
     SizesAvailable: {},
@@ -2476,25 +2476,25 @@ const products = [
         ColorCode: "02",
         ColorName: "Vintage White Desert Floral Print",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/985ku-02.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/985ku-02.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-homestead-sun-shade-in-vintage-white-desert-floral-print~p~985ku_02~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-homestead-sun-shade-in-vintage-white-desert-floral-print~p~985ku_02~160.jpg",
       },
       {
         ColorCode: "03",
         ColorName: "Shady Blue/Papaya Orange",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/985ku-03.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/985ku-03.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-homestead-sun-shade-in-shady-blue-papaya-orange~p~985ku_03~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-homestead-sun-shade-in-shady-blue-papaya-orange~p~985ku_03~160.jpg",
       },
       {
         ColorCode: "01",
         ColorName: "Zinnia Orange Low Poly",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/985ku-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/985ku-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-homestead-sun-shade-in-zinnia-orange-low-poly~p~985ku_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-homestead-sun-shade-in-zinnia-orange-low-poly~p~985ku_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Stay cool and comfortable at the campsite or beach with The North Face&#39;s Homestead sun shade. It&#39;s made from durable <a class="glossaryTermLink" href="/polyester~g~2001" title="Polyester: - Polyester is a man-made fiber that is second only to cotton in worldwide use. Polyester is strong; resists wrinkling, stretching and shrinking; and has high resistance to abrasion. It dries quickly, is one of the most popular wicking fabrics and is woven with many other fabrics to add strength and durability.">polyester</a> with a PU coating that shields you from the sun and rain, and its large vaulted opening offers easy entry and exit`,
@@ -2504,7 +2504,7 @@ const products = [
       Url: "/brand/1440/",
       ProductsUrl: "/products?Brand=1440",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/the-north-face~b~1440~160x100.jpg",
       Name: "The North Face",
     },
     ListPrice: 119.99,
@@ -2527,17 +2527,17 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-ballyhoo-tent-2-person-3-season-in-red-buffalo-plaid~p~15uhg_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/wenzel-ballyhoo-tent-2-person-3-season-in-red-buffalo-plaid~p~15uhg_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-ballyhoo-tent-2-person-3-season-in-red-buffalo-plaid~p~15uhg_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/wenzel-ballyhoo-tent-2-person-3-season-in-red-buffalo-plaid~p~15uhg_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-ballyhoo-tent-2-person-3-season-in-red-buffalo-plaid~p~15uhg_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/wenzel-ballyhoo-tent-2-person-3-season-in-red-buffalo-plaid~p~15uhg_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-ballyhoo-tent-2-person-3-season-in-red-buffalo-plaid~p~15uhg_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/wenzel-ballyhoo-tent-2-person-3-season-in-red-buffalo-plaid~p~15uhg_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-ballyhoo-tent-2-person-3-season~a~15uhg_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/wenzel-ballyhoo-tent-2-person-3-season~a~15uhg_2~600.1.jpg",
         },
       ],
     },
@@ -2547,9 +2547,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Red Buffalo Plaid",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/15uhg-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/15uhg-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-ballyhoo-tent-2-person-3-season-in-red-buffalo-plaid~p~15uhg_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/wenzel-ballyhoo-tent-2-person-3-season-in-red-buffalo-plaid~p~15uhg_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Wenzel&#39;s Ballyhoo tent has a large front awning that protects you from moisture or bright sun during entry or while relaxing in your pop-up shelter`,
@@ -2559,7 +2559,7 @@ const products = [
       Url: "/brand/23037/",
       ProductsUrl: "/products?Brand=23037",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/wenzel~b~23037~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/wenzel~b~23037~160x100.jpg",
       Name: "Wenzel",
     },
     ListPrice: 39,
@@ -2582,17 +2582,17 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-5-person-tent-10x8-3-season~a~15ugy_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/wenzel-5-person-tent-10x8-3-season~a~15ugy_2~600.1.jpg",
         },
       ],
     },
@@ -2602,9 +2602,9 @@ const products = [
         ColorCode: "99",
         ColorName: "See Photo",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/see-detail.gif",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/see-detail.gif",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. When space is an issue, take along this Northcrest tent, roomy enough to sleep up to five people, and featuring mesh windows, utility pockets and a <a class="glossaryTermLink" href="/gear-loft~g~1852" title="Gear Loft: - An overhead storage shelf used in tents. Gear lofts are typically made of lightweight mesh to minimize their impact on the overall weight of the tent. Gear lofts are a good place to stash damp items, particularly when the tent has a roof vent, so socks, hats and T-shirts that were used during the day can dry overnight and be ready to wear in the morning.">gear loft</a> for storage`,
@@ -2614,7 +2614,7 @@ const products = [
       Url: "/brand/23037/",
       ProductsUrl: "/products?Brand=23037",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/wenzel~b~23037~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/wenzel~b~23037~160x100.jpg",
       Name: "Wenzel",
     },
     ListPrice: 69,
@@ -2637,17 +2637,17 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cloudveil-pop-up-system-tent-2-person-3-season-in-branches~p~543dt_05~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cloudveil-pop-up-system-tent-2-person-3-season-in-branches~p~543dt_05~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cloudveil-pop-up-system-tent-2-person-3-season-in-branches~p~543dt_05~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cloudveil-pop-up-system-tent-2-person-3-season-in-branches~p~543dt_05~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cloudveil-pop-up-system-tent-2-person-3-season-in-branches~p~543dt_05~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cloudveil-pop-up-system-tent-2-person-3-season-in-branches~p~543dt_05~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cloudveil-pop-up-system-tent-2-person-3-season-in-branches~p~543dt_05~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cloudveil-pop-up-system-tent-2-person-3-season-in-branches~p~543dt_05~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cloudveil-pop-up-system-tent-2-person-3-season~a~543dt_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cloudveil-pop-up-system-tent-2-person-3-season~a~543dt_2~600.1.jpg",
         },
       ],
     },
@@ -2657,9 +2657,9 @@ const products = [
         ColorCode: "05",
         ColorName: "Branches",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/543dt-05.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/543dt-05.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/cloudveil-pop-up-system-tent-2-person-3-season-in-branches~p~543dt_05~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/cloudveil-pop-up-system-tent-2-person-3-season-in-branches~p~543dt_05~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. Get ready for sleep without too much hassle -- Cloudveil&#39;s Pop-Up System tent is incredibly easy to setup with a pop-up design`,
@@ -2669,7 +2669,7 @@ const products = [
       Url: "/brand/3204/",
       ProductsUrl: "/products?Brand=3204",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/cloudveil~b~3204~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/cloudveil~b~3204~160x100.jpg",
       Name: "Cloudveil",
     },
     ListPrice: 39.99,
@@ -2692,13 +2692,13 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~600.jpg",
       ExtraImages: null,
     },
     SizesAvailable: {},
@@ -2707,9 +2707,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Asphalt Grey",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/20dru-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/20dru-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. Prolong the life of your tent&#39;s floor with The North Face&#39;s Alpine Guide 3 tent footprint`,
@@ -2719,7 +2719,7 @@ const products = [
       Url: "/brand/1440/",
       ProductsUrl: "/products?Brand=1440",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/the-north-face~b~1440~160x100.jpg",
       Name: "The North Face",
     },
     ListPrice: 15,
@@ -2742,13 +2742,13 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~600.jpg",
       ExtraImages: null,
     },
     SizesAvailable: {},
@@ -2757,9 +2757,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Orange/Grey",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/12tgm-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/12tgm-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Hanging out in Eno&#39;s DoubleDeluxe hammock keeps you and your hammock pal swaying in relaxing comfort. With its high-strength <a class="glossaryTermLink" href="/nylon~g~1957" title="Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.">nylon</a> ripstop construction and wider design, it&#39;s sure to be a welcome addition at your favorite outdoor spot`,
@@ -2769,7 +2769,7 @@ const products = [
       Url: "/brand/2525/",
       ProductsUrl: "/products?Brand=2525/",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/eno~b~2525~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/eno~b~2525~160x100.jpg",
       Name: "ENO",
     },
     ListPrice: 39.99,
@@ -2792,21 +2792,21 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-singlenest-hammock-in-black-yellow~p~483vu_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-singlenest-hammock-in-black-yellow~p~483vu_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-singlenest-hammock-in-black-yellow~p~483vu_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-singlenest-hammock-in-black-yellow~p~483vu_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-singlenest-hammock-in-black-yellow~p~483vu_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-singlenest-hammock-in-black-yellow~p~483vu_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-singlenest-hammock-in-black-yellow~p~483vu_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-singlenest-hammock-in-black-yellow~p~483vu_01~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-singlenest-hammock~a~483vu_2~600.2.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-singlenest-hammock~a~483vu_2~600.2.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-singlenest-hammock~a~483vu_3~600.2.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-singlenest-hammock~a~483vu_3~600.2.jpg",
         },
       ],
     },
@@ -2816,17 +2816,17 @@ const products = [
         ColorCode: "01",
         ColorName: "Black/Yellow",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/483vu-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/483vu-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-singlenest-hammock-in-black-yellow~p~483vu_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-singlenest-hammock-in-black-yellow~p~483vu_01~160.jpg",
       },
       {
         ColorCode: "03",
         ColorName: "Rasta",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/483vu-03.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/483vu-03.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-singlenest-hammock-in-rasta~p~483vu_03~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-singlenest-hammock-in-rasta~p~483vu_03~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeouts~g~2312" title="Closeouts: - Closeouts are items that may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeouts</a></strong>. Relax the day or night away in ENO&#39;s SingleNest hammock, an easy-to-pack hammock made from lightweight yet highly durable <a class="glossaryTermLink" href="/nylon~g~1957" title="Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.">nylon</a> with reinforced stitching and nautical-grade line for a reliable hold`,
@@ -2836,7 +2836,7 @@ const products = [
       Url: "/brand/2525/",
       ProductsUrl: "/products?Brand=2525/",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/eno~b~2525~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/eno~b~2525~160x100.jpg",
       Name: "ENO",
     },
     ListPrice: 24.99,
@@ -2859,13 +2859,13 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-camonest-singlenest-hammock-in-retro-camo~p~15yah_03~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-camonest-singlenest-hammock-in-retro-camo~p~15yah_03~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-camonest-singlenest-hammock-in-retro-camo~p~15yah_03~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-camonest-singlenest-hammock-in-retro-camo~p~15yah_03~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-camonest-singlenest-hammock-in-retro-camo~p~15yah_03~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-camonest-singlenest-hammock-in-retro-camo~p~15yah_03~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-camonest-singlenest-hammock-in-retro-camo~p~15yah_03~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-camonest-singlenest-hammock-in-retro-camo~p~15yah_03~600.jpg",
       ExtraImages: null,
     },
     SizesAvailable: {},
@@ -2874,23 +2874,23 @@ const products = [
         ColorCode: "03",
         ColorName: "Retro Camo",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/15yah-03.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/15yah-03.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-camonest-singlenest-hammock-in-retro-camo~p~15yah_03~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-camonest-singlenest-hammock-in-retro-camo~p~15yah_03~160.jpg",
       },
       {
         ColorCode: "02",
         ColorName: "Urban Camo",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/15yah-02.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/15yah-02.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-camonest-singlenest-hammock-in-urban-camo~p~15yah_02~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-camonest-singlenest-hammock-in-urban-camo~p~15yah_02~160.jpg",
       },
       {
         ColorCode: "01",
         ColorName: "Forest Camo",
         ColorChipImageSrc:
-          "https://s.stpost.com/eccstorefront/colorchip/15yah-01.jpg",
+          "https://s.stpost.com/eccstorefront/color-chips/15yah-01.jpg",
         ColorPreviewImageSrc:
           "https://i.stpost.com/eno-camonest-singlenest-hammock-in-forest-camo~p~15yah_01~160.jpg",
       },
@@ -2902,7 +2902,7 @@ const products = [
       Url: "/brand/2525/",
       ProductsUrl: "/products?Brand=2525/",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/eno~b~2525~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/eno~b~2525~160x100.jpg",
       Name: "ENO",
     },
     ListPrice: 39.99,
@@ -2925,17 +2925,17 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-led-hammock-in-grey-neon~p~697yc_02~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doublenest-led-hammock-in-grey-neon~p~697yc_02~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-led-hammock-in-grey-neon~p~697yc_02~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doublenest-led-hammock-in-grey-neon~p~697yc_02~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-led-hammock-in-grey-neon~p~697yc_02~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doublenest-led-hammock-in-grey-neon~p~697yc_02~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-led-hammock-in-grey-neon~p~697yc_02~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doublenest-led-hammock-in-grey-neon~p~697yc_02~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-led-hammock~a~697yc_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doublenest-led-hammock~a~697yc_2~600.1.jpg",
         },
       ],
     },
@@ -2945,17 +2945,17 @@ const products = [
         ColorCode: "02",
         ColorName: "Grey/Neon",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/697yc-02.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/697yc-02.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-led-hammock-in-grey-neon~p~697yc_02~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doublenest-led-hammock-in-grey-neon~p~697yc_02~160.jpg",
       },
       {
         ColorCode: "01",
         ColorName: "Orange/Grey",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/697yc-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/697yc-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-led-hammock-in-orange-grey~p~697yc_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doublenest-led-hammock-in-orange-grey~p~697yc_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Spacious enough for two people, ENO&#39;s DoubleNest LED hammock allows you and a friend or loved one to rest, relax and enjoy the beautiful views together! The fun and festive integrated light strand -- with bright, dim and strobe functions -- injects a good time into any hammock sesh`,
@@ -2965,7 +2965,7 @@ const products = [
       Url: "/brand/2525/",
       ProductsUrl: "/products?Brand=2525/",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/eno~b~2525~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/eno~b~2525~160x100.jpg",
       Name: "ENO",
     },
     ListPrice: 49.99,
@@ -2988,13 +2988,13 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-rasta~p~627yp_05~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/grand-trunk-double-parachute-printed-nylon-hammock-in-rasta~p~627yp_05~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-rasta~p~627yp_05~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/grand-trunk-double-parachute-printed-nylon-hammock-in-rasta~p~627yp_05~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-rasta~p~627yp_05~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/grand-trunk-double-parachute-printed-nylon-hammock-in-rasta~p~627yp_05~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-rasta~p~627yp_05~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/grand-trunk-double-parachute-printed-nylon-hammock-in-rasta~p~627yp_05~600.jpg",
       ExtraImages: null,
     },
     SizesAvailable: {},
@@ -3003,41 +3003,41 @@ const products = [
         ColorCode: "05",
         ColorName: "Rasta",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/627yp-05.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/627yp-05.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-rasta~p~627yp_05~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/grand-trunk-double-parachute-printed-nylon-hammock-in-rasta~p~627yp_05~160.jpg",
       },
       {
         ColorCode: "04",
         ColorName: "Bubblegum",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/627yp-04.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/627yp-04.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-bubblegum~p~627yp_04~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/grand-trunk-double-parachute-printed-nylon-hammock-in-bubblegum~p~627yp_04~160.jpg",
       },
       {
         ColorCode: "09",
         ColorName: "Teton Mountain",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/627yp-09.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/627yp-09.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-teton-mountain~p~627yp_09~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/grand-trunk-double-parachute-printed-nylon-hammock-in-teton-mountain~p~627yp_09~160.jpg",
       },
       {
         ColorCode: "08",
         ColorName: "Spanish Floral",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/627yp-08.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/627yp-08.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-spanish-floral~p~627yp_08~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/grand-trunk-double-parachute-printed-nylon-hammock-in-spanish-floral~p~627yp_08~160.jpg",
       },
       {
         ColorCode: "03",
         ColorName: "Palm",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/627yp-03.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/627yp-03.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-palm~p~627yp_03~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/grand-trunk-double-parachute-printed-nylon-hammock-in-palm~p~627yp_03~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Grand Trunk&#39;s Double Parachute Printed <a class="glossaryTermLink" href="/nylon~g~1957" title="Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.">nylon</a> hammock is designed to hang anywhere there&#39;s two posts or trees close by. It&#39;s big enough to hold two and is durable, lightweight and comfortable, too`,
@@ -3047,7 +3047,7 @@ const products = [
       Url: "/brand/3457/",
       ProductsUrl: "/products?Brand=3457",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/grand-trunk~b~3457~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/grand-trunk~b~3457~160x100.jpg",
       Name: "Grand Trunk",
     },
     ListPrice: 29,
@@ -3070,25 +3070,25 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person-in-burgundy-dark-yellow~p~880vp_05~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-honeymoon-hammock-2-person-in-burgundy-dark-yellow~p~880vp_05~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person-in-burgundy-dark-yellow~p~880vp_05~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-honeymoon-hammock-2-person-in-burgundy-dark-yellow~p~880vp_05~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person-in-burgundy-dark-yellow~p~880vp_05~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-honeymoon-hammock-2-person-in-burgundy-dark-yellow~p~880vp_05~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person-in-burgundy-dark-yellow~p~880vp_05~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-honeymoon-hammock-2-person-in-burgundy-dark-yellow~p~880vp_05~600.jpg",
       ExtraImages: [
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person~a~880vp_2~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-honeymoon-hammock-2-person~a~880vp_2~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person~a~880vp_3~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-honeymoon-hammock-2-person~a~880vp_3~600.1.jpg",
         },
         {
           Title: "Alternate View",
-          Src: "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person~a~880vp_4~600.1.jpg",
+          Src: "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-honeymoon-hammock-2-person~a~880vp_4~600.1.jpg",
         },
       ],
     },
@@ -3098,25 +3098,25 @@ const products = [
         ColorCode: "05",
         ColorName: "Burgundy/Dark Yellow",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/880vp-05.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/880vp-05.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person-in-burgundy-dark-yellow~p~880vp_05~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-honeymoon-hammock-2-person-in-burgundy-dark-yellow~p~880vp_05~160.jpg",
       },
       {
         ColorCode: "06",
         ColorName: "Orange/Dark Grey",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/880vp-06.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/880vp-06.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person-in-orange-dark-grey~p~880vp_06~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-honeymoon-hammock-2-person-in-orange-dark-grey~p~880vp_06~160.jpg",
       },
       {
         ColorCode: "03",
         ColorName: "Army Green/Brown",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/880vp-03.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/880vp-03.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person-in-army-green-brown~p~880vp_03~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-honeymoon-hammock-2-person-in-army-green-brown~p~880vp_03~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong>Excess</strong>. TICKET TO THE MOON&#39;s Honeymoon hammock is a spacious space for you and a friend or loved one to rest, relax and enjoy a warm summer day. Tough parachute <a class="glossaryTermLink" href="/nylon~g~1957" title="Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.">nylon</a> fabric is flexible, breathable, hypoallergenic, and of course, comfortable`,
@@ -3126,7 +3126,7 @@ const products = [
       Url: "/brand/38562/",
       ProductsUrl: "/products?Brand=38562",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/ticket-to-the-moon~b~38562~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/ticket-to-the-moon~b~38562~160x100.jpg",
       Name: "TICKET TO THE MOON",
     },
     ListPrice: 75,
@@ -3149,13 +3149,13 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~600.jpg",
       ExtraImages: null,
     },
     SizesAvailable: {},
@@ -3164,25 +3164,25 @@ const products = [
         ColorCode: "07",
         ColorName: "Orange/Dark Grey",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/880vc-07.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/880vc-07.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~160.jpg",
       },
       {
         ColorCode: "05",
         ColorName: "Royal Blue/Orange",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/880vc-05.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/880vc-05.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-original-hammock-in-royal-blue-orange~p~880vc_05~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-original-hammock-in-royal-blue-orange~p~880vc_05~160.jpg",
       },
       {
         ColorCode: "02",
         ColorName: "Aqua/Pink",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/880vc-02.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/880vc-02.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-original-hammock-in-aqua-pink~p~880vc_02~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/ticket-to-the-moon-original-hammock-in-aqua-pink~p~880vc_02~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong>Excess</strong>. You can relax at your campsite or in your own backyard with TICKET TO THE MOON&#39;s original hammock, made with high-grade parachute <a class="glossaryTermLink" href="/nylon~g~1957" title="Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.">nylon</a> and skin-friendly dyes`,
@@ -3192,7 +3192,7 @@ const products = [
       Url: "/brand/38562/",
       ProductsUrl: "/products?Brand=38562",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/ticket-to-the-moon~b~38562~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/ticket-to-the-moon~b~38562~160x100.jpg",
       Name: "TICKET TO THE MOON",
     },
     ListPrice: 34.99,
@@ -3215,13 +3215,13 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/peregrine-refuge-2-hammock-in-mango~p~827mp_02~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/peregrine-refuge-2-hammock-in-mango~p~827mp_02~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/peregrine-refuge-2-hammock-in-mango~p~827mp_02~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/peregrine-refuge-2-hammock-in-mango~p~827mp_02~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/peregrine-refuge-2-hammock-in-mango~p~827mp_02~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/peregrine-refuge-2-hammock-in-mango~p~827mp_02~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/peregrine-refuge-2-hammock-in-mango~p~827mp_02~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/peregrine-refuge-2-hammock-in-mango~p~827mp_02~600.jpg",
       ExtraImages: null,
     },
     SizesAvailable: {},
@@ -3230,17 +3230,17 @@ const products = [
         ColorCode: "02",
         ColorName: "Mango",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/827mp-02.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/827mp-02.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/peregrine-refuge-2-hammock-in-mango~p~827mp_02~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/peregrine-refuge-2-hammock-in-mango~p~827mp_02~160.jpg",
       },
       {
         ColorCode: "03",
         ColorName: "Tomato",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/827mp-03.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/827mp-03.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/peregrine-refuge-2-hammock-in-tomato~p~827mp_03~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/peregrine-refuge-2-hammock-in-tomato~p~827mp_03~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Enjoy relaxation alone or with a partner wherever your travels take you with the breathable, lightweight fabric and integrated suspension of this Peregrine&#39;s Refuge 2 hammock`,
@@ -3250,7 +3250,7 @@ const products = [
       Url: "/brand/35321/",
       ProductsUrl: "/products?Brand=35321",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/peregrine~b~35321~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/peregrine~b~35321~160x100.jpg",
       Name: "Peregrine",
     },
     ListPrice: 29,
@@ -3273,13 +3273,13 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~600.jpg",
       ExtraImages: null,
     },
     SizesAvailable: {},
@@ -3288,9 +3288,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Fuschia/Neon",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/17yty-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/17yty-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong>Excess</strong>. Spacious enough for two people, ENO&#39;s DoubleNest hammock allows you and a friend or loved one to rest, relax and enjoy the beautiful views together! The light-yet-strong <a class="glossaryTermLink" href="/nylon~g~1957" title="Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.">nylon</a> supports up to 400 pounds and has triple interlock stitching to boost support and durability`,
@@ -3300,7 +3300,7 @@ const products = [
       Url: "/brand/2525/",
       ProductsUrl: "/products?Brand=2525/",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/eno~b~2525~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/eno~b~2525~160x100.jpg",
       Name: "ENO",
     },
     ListPrice: 29.99,
@@ -3323,13 +3323,13 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/noreast-outdoors-single-hammock-in-azure-light-blue~p~26htn_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/noreast-outdoors-single-hammock-in-azure-light-blue~p~26htn_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/noreast-outdoors-single-hammock-in-azure-light-blue~p~26htn_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/noreast-outdoors-single-hammock-in-azure-light-blue~p~26htn_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/noreast-outdoors-single-hammock-in-azure-light-blue~p~26htn_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/noreast-outdoors-single-hammock-in-azure-light-blue~p~26htn_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/noreast-outdoors-single-hammock-in-azure-light-blue~p~26htn_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/noreast-outdoors-single-hammock-in-azure-light-blue~p~26htn_01~600.jpg",
       ExtraImages: null,
     },
     SizesAvailable: {},
@@ -3338,9 +3338,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Azure/Light Blue",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/26htn-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/26htn-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/noreast-outdoors-single-hammock-in-azure-light-blue~p~26htn_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/noreast-outdoors-single-hammock-in-azure-light-blue~p~26htn_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Kick back and relax in this NorEast Single hammock, made from strong 230T Poly Tech fabric in a design that is lightweight enough for backpacking and durable enough for everyday use`,
@@ -3350,7 +3350,7 @@ const products = [
       Url: "/brand/37930/",
       ProductsUrl: "/products?Brand=37930",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/noreast-outdoors~b~37930~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/noreast-outdoors~b~37930~160x100.jpg",
       Name: "NorEast Outdoors",
     },
     ListPrice: 15,
@@ -3373,13 +3373,13 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/noreast-outdoors-single-hammock-in-orange-navy~p~26htk_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/noreast-outdoors-single-hammock-in-orange-navy~p~26htk_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/noreast-outdoors-single-hammock-in-orange-navy~p~26htk_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/noreast-outdoors-single-hammock-in-orange-navy~p~26htk_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/noreast-outdoors-single-hammock-in-orange-navy~p~26htk_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/noreast-outdoors-single-hammock-in-orange-navy~p~26htk_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/noreast-outdoors-single-hammock-in-orange-navy~p~26htk_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/noreast-outdoors-single-hammock-in-orange-navy~p~26htk_01~600.jpg",
       ExtraImages: null,
     },
     SizesAvailable: {},
@@ -3388,9 +3388,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Orange/Navy",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/26htk-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/26htk-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/noreast-outdoors-single-hammock-in-orange-navy~p~26htk_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/noreast-outdoors-single-hammock-in-orange-navy~p~26htk_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Kick back and relax in this NorEast Single hammock, made from strong 230T Poly Tech fabric in a design that is lightweight enough for backpacking and durable enough for everyday use`,
@@ -3400,7 +3400,7 @@ const products = [
       Url: "/brand/37930/",
       ProductsUrl: "/products?Brand=37930",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/noreast-outdoors~b~37930~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/noreast-outdoors~b~37930~160x100.jpg",
       Name: "NorEast Outdoors",
     },
     ListPrice: 15,
@@ -3423,13 +3423,13 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/noreast-outdoors-sport-double-hammock-in-red-slate~p~15yxh_03~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/noreast-outdoors-sport-double-hammock-in-red-slate~p~15yxh_03~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/noreast-outdoors-sport-double-hammock-in-red-slate~p~15yxh_03~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/noreast-outdoors-sport-double-hammock-in-red-slate~p~15yxh_03~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/noreast-outdoors-sport-double-hammock-in-red-slate~p~15yxh_03~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/noreast-outdoors-sport-double-hammock-in-red-slate~p~15yxh_03~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/noreast-outdoors-sport-double-hammock-in-red-slate~p~15yxh_03~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/noreast-outdoors-sport-double-hammock-in-red-slate~p~15yxh_03~600.jpg",
       ExtraImages: null,
     },
     SizesAvailable: {},
@@ -3438,17 +3438,17 @@ const products = [
         ColorCode: "03",
         ColorName: "Red/Slate",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/15yxh-03.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/15yxh-03.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/noreast-outdoors-sport-double-hammock-in-red-slate~p~15yxh_03~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/noreast-outdoors-sport-double-hammock-in-red-slate~p~15yxh_03~160.jpg",
       },
       {
         ColorCode: "01",
         ColorName: "Azure/Light Blue",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/15yxh-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/15yxh-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/noreast-outdoors-sport-double-hammock-in-azure-light-blue~p~15yxh_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/noreast-outdoors-sport-double-hammock-in-azure-light-blue~p~15yxh_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Kick back and relax with your favorite person in this NorEast Outdoors Sport double hammock, made from strong 230T Poly Tech fabric in a design that is lightweight enough for backpacking and durable enough for everyday use`,
@@ -3458,7 +3458,7 @@ const products = [
       Url: "/brand/37930/",
       ProductsUrl: "/products?Brand=37930",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/noreast-outdoors~b~37930~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/noreast-outdoors~b~37930~160x100.jpg",
       Name: "NorEast Outdoors",
     },
     ListPrice: 24.99,
@@ -3481,13 +3481,13 @@ const products = [
     IsFamousBrand: false,
     Images: {
       PrimarySmall:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/avalanche-outdoors-ultralight-single-hammock-underquilt-in-red-grey~p~22yvd_01~80.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/avalanche-outdoors-ultralight-single-hammock-underquilt-in-red-grey~p~22yvd_01~80.jpg",
       PrimaryMedium:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/avalanche-outdoors-ultralight-single-hammock-underquilt-in-red-grey~p~22yvd_01~160.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/avalanche-outdoors-ultralight-single-hammock-underquilt-in-red-grey~p~22yvd_01~160.jpg",
       PrimaryLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/avalanche-outdoors-ultralight-single-hammock-underquilt-in-red-grey~p~22yvd_01~320.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/avalanche-outdoors-ultralight-single-hammock-underquilt-in-red-grey~p~22yvd_01~320.jpg",
       PrimaryExtraLarge:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/avalanche-outdoors-ultralight-single-hammock-underquilt-in-red-grey~p~22yvd_01~600.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/avalanche-outdoors-ultralight-single-hammock-underquilt-in-red-grey~p~22yvd_01~600.jpg",
       ExtraImages: null,
     },
     SizesAvailable: {},
@@ -3496,9 +3496,9 @@ const products = [
         ColorCode: "01",
         ColorName: "Red/Grey",
         ColorChipImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/22yvd-01.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/color-chips/22yvd-01.jpg",
         ColorPreviewImageSrc:
-          "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/avalanche-outdoors-ultralight-single-hammock-underquilt-in-red-grey~p~22yvd_01~160.jpg",
+          "https://sleep-outside-cptt.onrender.com/api/v1/images/products/avalanche-outdoors-ultralight-single-hammock-underquilt-in-red-grey~p~22yvd_01~160.jpg",
       },
     ],
     DescriptionHtmlSimple: `<strong><a class="glossaryTermLink" href="/closeout~g~3281" title="Closeout: - Closeout indicates an item may be last year\'s model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.">Closeout</a></strong>. Avalanche&#39;s Ultralight Single Hammock Underquilt lends extra warmth underneath you while you&#39;re relaxing on the hammock to prevent you from getting too chilly in cool weather`,
@@ -3508,7 +3508,7 @@ const products = [
       Url: "/brand/38304/",
       ProductsUrl: "/products?Brand=38304",
       LogoSrc:
-        "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/avalanche-outdoors~b~38304~160x100.jpg",
+        "https://sleep-outside-cptt.onrender.com/api/v1/images/products/brands/avalanche-outdoors~b~38304~160x100.jpg",
       Name: "Avalanche Outdoors",
     },
     ListPrice: 22,
@@ -3545,5 +3545,3 @@ export function createProducts(): Product[] {
 
   return verified;
 }
-
-createProducts();
