@@ -1,6 +1,9 @@
 <script>
   import cart from "../assets/hiking-backpack.svg?url";
   import UserMenu from "./UserMenu.svelte";
+  import SearchBar from "./SearchBar.svelte";
+
+  let searchQuery = "";
 </script>
 
 <header class="divider">
@@ -11,6 +14,36 @@
     </a>
   </div>
   <nav class="menu-right">
+    <!-- <div class="search">
+      <input 
+        type="text" 
+        placeholder="Search for products..." 
+        aria-label="Search for products"
+        bind:value={searchQuery}
+        on:keydown={(e) => {
+          if (e.key === 'Enter' && searchQuery) {
+            e.preventDefault();
+            window.location.href = `/product-list/search?q=${encodeURIComponent(searchQuery)}`;
+          }
+        }}
+            />
+    </div>
+    <div class="search-button">
+      <button 
+        aria-label="Search" 
+        class="search-btn" 
+        on:click={() => {
+          if (searchQuery) {
+            window.location.href = `/product-list/search?q=${encodeURIComponent(searchQuery)}`;
+          }
+        }}
+      >
+        Search
+      </button>
+    </div> -->
+    <div>
+      <SearchBar />
+    </div>
     <div class="user-menu-container">
       <UserMenu />
     </div>
@@ -70,5 +103,15 @@
   }
   .cart img {
     width: 30px;
+  }
+  .search {
+    margin-right: 10px;
+  }
+  .search input {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  .search-button {
+    margin-right: 20px;
   }
 </style>

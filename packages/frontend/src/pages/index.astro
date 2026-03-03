@@ -39,5 +39,24 @@ const title = "Home";
       <ProductSummary product={product3} />
       <ProductSummary product={product4} />
     </section>
+        <div class="search-button">
+      <button 
+        aria-label="Search" 
+        class="search-btn" 
+        click={() => {
+            window.location.href = `/product-list/}`;
+        }}
+      >
+
+      <button id="my-button">Go to About Page</button>
+
+<script>
+  document.getElementById("my-button").addEventListener("click", () => {
+    window.location.href = "/product-list/";
+  });
+</script>
+        Search
+      </button>
+    </div>
   </slot>
 </Layout>

@@ -3,15 +3,8 @@ import Layout from "../layouts/Layout.astro";
 const title = "Page Not Found";
 ---
 
-<html>
-  <head>
-    <title>{title}</title>
-  </head>
-  <body>
-    <Layout title={title}>
-      <slot class="divider">
-        <p>Page Not Found</p>
-      </slot>
-    </Layout>
-  </body>
-</html>
+<Layout title={title}>
+  <slot class="divider">
+    <p>Page Not Found</p>
+  </slot>
+</Layout>

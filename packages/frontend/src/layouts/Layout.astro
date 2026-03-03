@@ -16,7 +16,7 @@ let { title } = Astro.props as { title: string };
     <title>Sleep Outside | {title}</title>
   </head>
   <body>
-    <Header />
+    <Header client:load />
     <slot />
     <Footer />
   </body>
