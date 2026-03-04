@@ -77,8 +77,16 @@ const product: Product = productCollectionItem.data;
   import { addToCart } from "../../js/cart.ts";
   import { sendAlert } from "../../components/alert/alert.svelte.ts";
   import type { AlertOptions } from "../../components/alert";
+  import type { Color } from "../../../../shared/types/schemas.mts";
 
   const btn = document.querySelector("#addToCart");
+
+  let selectedColor: Color;
+  function selectColor(color: Color) {
+    selectedColor = color;
+  }
+  // @ts-expect-error ts(2339)
+  window.selectColor = selectColor;
 
   if (btn) {
     btn.addEventListener("click", (event) => {
@@ -87,14 +95,23 @@ const product: Product = productCollectionItem.data;
 
       if (productString) {
         const productData = JSON.parse(productString);
-        addToCart(productData);
+        if (selectedColor) {
+          addToCart(productData, selectedColor.colorName);
 
-        const alertOptions: AlertOptions = {
-          message: `${productData.name} was added to your cart!`,
-          type: "success",
-          duration: 3000,
-        };
-        sendAlert(alertOptions);
+          const alertOptions: AlertOptions = {
+            message: `${productData.name} was added to your cart!`,
+            type: "success",
+            duration: 3000,
+          };
+          sendAlert(alertOptions);
+        } else {
+          const alertOptions: AlertOptions = {
+            message: `please select a color`,
+            type: "warning",
+            duration: 1000,
+          };
+          sendAlert(alertOptions);
+        }
       }
     });
   }

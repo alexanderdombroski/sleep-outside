@@ -11,6 +11,8 @@
 
   function selectColor(color?: Color) {
     selected = color;
+    // @ts-expect-error ts(2339)
+    window.selectColor?.(color)
     onChange?.(color);
   }
 </script>

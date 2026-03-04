@@ -1,5 +1,6 @@
 import { getLocalStorage } from "./utils.mjs";
 import type { Product } from "./types.mjs";
+import type { Color } from "../../../shared/types/schemas.mts";
 
 export function renderCartContents() {
   const cartItems = getLocalStorage<Product[]>("so-cart") ?? [];
@@ -9,8 +10,10 @@ export function renderCartContents() {
   return cartItems;
 }
 
-export function addToCart(product: Product) {
+export function addToCart(product: Product, colorName: string) {
   const cartItems = getLocalStorage<Product[]>("so-cart") ?? [];
+  const color = product.colors.find((color) => color.colorName === colorName);
+  product = { ...product, colors: [color as Color] };
   cartItems.push(product);
   localStorage.setItem("so-cart", JSON.stringify(cartItems));
   renderCartContents();
