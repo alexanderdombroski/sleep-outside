@@ -104,14 +104,4 @@
   .cart img {
     width: 30px;
   }
-  .search {
-    margin-right: 10px;
-  }
-  .search input {
-    padding: 5px;
-    font-size: 1rem;
-  }
-  .search-button {
-    margin-right: 20px;
-  }
 </style>
