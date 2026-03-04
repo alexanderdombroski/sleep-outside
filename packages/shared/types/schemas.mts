@@ -71,6 +71,14 @@ export const BrandSchema = z.object({
 export type Category = z.infer<typeof category>;
 const category = z.enum(["sleeping-bags", "backpacks", "tents", "hammocks"]);
 
+const ColorSchema = z.object({
+  colorCode: z.string(),
+  colorName: z.string(),
+  colorChipImageSrc: z.string(),
+  colorPreviewImageSrc: z.string(),
+});
+export type Color = z.infer<typeof ColorSchema>;
+
 export type Product = z.infer<typeof ProductSchema>;
 export const ProductSchema = z
   .object({
@@ -91,6 +99,7 @@ export const ProductSchema = z
         .array(z.object({ title: z.string(), src: z.string() }))
         .nullish(),
     }),
+    colors: z.array(ColorSchema).optional(),
     stock: z.number(),
     isActive: z.boolean(),
     createdAt: z.date(),
