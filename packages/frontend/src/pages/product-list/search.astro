@@ -1,35 +1,11 @@
 ---
-export const prerender = false; // keeps SSR (same as your original ssr = true)
-
-import SearchResults from "../components/SearchResults.svelte";
-import { findProductById } from "../../js/productData.mts";
-
-const url = new URL(Astro.request.url);
-const q = url.searchParams.get("q");
-
-let products: any[] = [];
-let enrichedProducts: any[] = [];
-let error: string | null = null;
-
-if (q) {
-  try {
-    const resp = await fetch(
-      `http://localhost:3000/api/v1/products/search/${encodeURIComponent(q)}`
-    );
-
-    if (!resp.ok) throw new Error("Failed to fetch products");
-    products = await resp.json();
-
-    // Enrich with full data on the server (same as before)
-    if (products.length > 0) {
-      enrichedProducts = await Promise.all(
-        products.map((p: any) => findProductById(p.id))
-      );
-    }
-  } catch (err: any) {
-    error = err.message;
-  }
-}
+import ProductList from "../../components/ProductList.svelte";
+import Layout from "../../layouts/Layout.astro";
 ---
 
-<SearchResults q={q} error={error} products={enrichedProducts} />
+<Layout>
+    <slot class="divider">
+        
+        <ProductList client:only={true} />
+    </slot>
+</Layout>
