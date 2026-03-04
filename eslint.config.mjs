@@ -21,7 +21,7 @@ const noStaticSvelte = {
       },
       create(context) {
         const svelteComponents = new Set();
-        const validProperties = new Set(["load", "idle", "visible"]);
+        const validProperties = new Set(["load", "idle", "visible", "only"]);
 
         return {
           ImportDeclaration(node) {
