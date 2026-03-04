@@ -1,6 +1,6 @@
 <script>
   import cart from "../assets/hiking-backpack.svg?url";
-  import tent from "../../public/images/noun_Tent_2517.svg?url"
+  import tent from "../assets/noun_Tent_2517.svg?url"
   import UserMenu from "./UserMenu.svelte";
   const BASE_URL = import.meta.env.BASE_URL;
 </script>
