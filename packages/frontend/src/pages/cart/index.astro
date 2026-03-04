@@ -6,16 +6,50 @@ const title = "Cart";
 <script>
   import type { Product } from "../../js/types.mts";
   import { renderCartContents } from "../../js/cart.ts";
-  let cartItems: Product[] = renderCartContents() as Product[];
-  let cartTotal = 0;
-  cartItems.forEach((product) => {
-    cartTotal += product.finalPrice;
-  });
-  const cartTotalElement = document.querySelector(".cart-total");
-  if (cartItems.length > 0 && cartTotalElement) {
-    cartTotalElement.innerHTML = `<p class="cart-total">Total: $${cartTotal.toFixed(2)}</p>`;
-  } else if (cartTotalElement) {
-    cartTotalElement.innerHTML = `<p class="cart-total-empty">Total: $0.00</p>`;
+  import { sendAlert } from "../../components/alert/alert.svelte.ts";
+  import type { AlertOptions } from "../../components/alert";
+  import { deleteFromCart } from "../../js/cart.ts";
+
+  function refreshCart() {
+    let cartItems: Product[] = renderCartContents() as Product[];
+    let cartTotal = 0;
+    cartItems.forEach((product) => {
+      cartTotal += product.finalPrice;
+    });
+    const cartTotalElement = document.querySelector(".cart-total");
+    if (cartItems.length > 0 && cartTotalElement) {
+      cartTotalElement.innerHTML = `<p class="cart-total">Total: $${cartTotal.toFixed(2)}</p>`;
+    } else if (cartTotalElement) {
+      cartTotalElement.innerHTML = `<p class="cart-total-empty">Total: $0.00</p>`;
+    }
+  }
+
+  // Listen to the parent container that holds all the cart items
+  const productList = document.querySelector(".product-list");
+
+  if (productList) {
+    productList.addEventListener("click", (event) => {
+      const target = event.target as HTMLElement;
+      const deleteBtn = target.closest(
+        ".delete-from-cart",
+      ) as HTMLButtonElement;
+
+      if (deleteBtn) {
+        const productId = deleteBtn.dataset.id;
+        const productName = deleteBtn.dataset.name;
+
+        if (productId) {
+          deleteFromCart(productId);
+
+          sendAlert({
+            type: "success",
+            message: `${productName} removed from cart!`,
+          } as AlertOptions);
+
+          refreshCart();
+        }
+      }
+    });
   }
 </script>
 

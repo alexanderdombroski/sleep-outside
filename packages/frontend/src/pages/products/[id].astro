@@ -79,7 +79,7 @@ const product: Product = productCollectionItem.data;
   import type { AlertOptions } from "../../components/alert";
   import type { Color } from "../../../../shared/types/schemas.mts";
 
-  const btn = document.querySelector("#addToCart");
+  const addBtn = document.querySelector("#addToCart");
 
   let selectedColor: Color;
   function selectColor(color: Color) {
@@ -88,8 +88,8 @@ const product: Product = productCollectionItem.data;
   // @ts-expect-error ts(2339)
   window.selectColor = selectColor;
 
-  if (btn) {
-    btn.addEventListener("click", (event) => {
+  if (addBtn) {
+    addBtn.addEventListener("click", (event) => {
       const target = event.currentTarget as HTMLButtonElement;
       const productString = target.dataset.product;
 
