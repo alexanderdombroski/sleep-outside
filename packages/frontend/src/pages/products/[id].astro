@@ -1,5 +1,7 @@
 ---
+import type { Product } from "../../../../shared/types/schemas.mts";
 import Layout from "../../layouts/Layout.astro";
+import ColorPicker from "../../components/ColorPicker.svelte";
 import { type CollectionEntry, getCollection } from "astro:content";
 
 export async function getStaticPaths() {
@@ -12,45 +14,64 @@ export async function getStaticPaths() {
 }
 
 type Props = CollectionEntry<"products">;
-const product = Astro.props;
-const title = product.data.name;
+const productCollectionItem = Astro.props;
+const product: Product = productCollectionItem.data;
 ---
 
-<Layout title={title}>
+<Layout title={product.name}>
   <section class="product-detail">
-    <h3>Marmot</h3>
-
-    <h2 class="divider">{product.data.name}</h2>
+    <h2 class="divider">{product.name}</h2>
 
     <img
       class="divider"
-      src={product.data.images.primaryExtraLarge}
-      alt={product.data.name}
+      src={product.images.primaryExtraLarge}
+      alt={product.name}
     />
 
-    <p class="product-card__price">${product.data.listPrice}</p>
-    <p class="product-card__discount">
-      {
-        product.data.discountPercentage
-          ? `${product.data.discountPercentage}% off`
-          : "No discount"
-      }
-    </p>
-    <p class="product-card__final-price">${product.data.finalPrice}</p>
+    <div class="prices">
+      <p class="product-card__price">${product.listPrice}</p>
+      <p class="product-card__discount">
+        {
+          product.discountPercentage
+            ? `${product.discountPercentage}% off`
+            : "No discount"
+        }
+      </p>
+      <p class="product-card__final-price">${product.finalPrice}</p>
+    </div>
 
-    <div class="product__color">
-      {JSON.stringify(product.data.colors)}
+    {
+      product.colors && (
+        <div class="product__color">
+          <ColorPicker client:load colors={product.colors} />
+        </div>
+      )
+    }
+    <p class="product__description" set:html={product.descriptionHtmlSimple} />
+    <p>Only <b>{product.stock}</b> left in stock!</p>
 
-      <p class="product__description">{product.data.descriptionHtmlSimple}</p>
-
-      <div class="product-detail__add">
-        <button id="addToCart" data-product={JSON.stringify(product.data)}>
-          Add to Cart
-        </button>
-      </div>
+    <div class="product-detail__add">
+      <button id="addToCart" data-product={JSON.stringify(product)}>
+        Add to Cart
+      </button>
     </div>
   </section>
 </Layout>
+
+<style>
+  .prices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .product-card__price {
+      text-decoration: line-through;
+    }
+    .product-card__final-price {
+      font-weight: bold;
+    }
+  }
+</style>
 
 <script>
   import { addToCart } from "../../js/cart.ts";
