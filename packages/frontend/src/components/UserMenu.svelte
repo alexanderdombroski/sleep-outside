@@ -1,5 +1,5 @@
 <script lang="ts">
-  import hiker from "../../public/images/noun-hiker.svg?url";
+  import hiker from "../assets/noun-hiker.svg?url";
   import { onMount } from "svelte";
   import { logout, userStore } from "../js/auth.svelte";
 
