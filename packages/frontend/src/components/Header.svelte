@@ -14,33 +14,6 @@
     </a>
   </div>
   <nav class="menu-right">
-    <!-- <div class="search">
-      <input 
-        type="text" 
-        placeholder="Search for products..." 
-        aria-label="Search for products"
-        bind:value={searchQuery}
-        on:keydown={(e) => {
-          if (e.key === 'Enter' && searchQuery) {
-            e.preventDefault();
-            window.location.href = `/product-list/search?q=${encodeURIComponent(searchQuery)}`;
-          }
-        }}
-            />
-    </div>
-    <div class="search-button">
-      <button 
-        aria-label="Search" 
-        class="search-btn" 
-        on:click={() => {
-          if (searchQuery) {
-            window.location.href = `/product-list/search?q=${encodeURIComponent(searchQuery)}`;
-          }
-        }}
-      >
-        Search
-      </button>
-    </div> -->
     <div>
       <SearchBar />
     </div>
