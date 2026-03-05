@@ -19,21 +19,36 @@ export function addToCart(product: Product, colorName: string) {
   renderCartContents();
 }
 
+export function deleteFromCart(id: string) {
+  const cartItems = getLocalStorage<Product[]>("so-cart") ?? [];
+  const updatedCartItems = cartItems.filter((item) => item.id !== id);
+  localStorage.setItem("so-cart", JSON.stringify(updatedCartItems));
+  renderCartContents();
+}
+
 function cartItemTemplate(item: Product) {
   const newItem = `<li class="cart-card divider">
-  <a href="#" class="cart-card__image">
-    <img
-      src="${item.images.primaryExtraLarge}"
-      alt="${item.name}"
-    />
-  </a>
-  <a href="#">
-    <h2 class="card__name">${item.name}</h2>
-  </a>
-  <p class="cart-card__color">${item.colors[0].colorName}</p>
-  <p class="cart-card__quantity">qty: 1</p>
-  <p class="cart-card__price">$${item.finalPrice}</p>
-</li>`;
+    <a href="#" class="cart-card__image">
+      <img
+        src="${item.images.primaryExtraLarge}"
+        alt="${item.name}"
+      />
+    </a>
+    <a href="#">
+      <h2 class="card__name">${item.name}</h2>
+    </a>
+    <p class="cart-card__color">${item.colors[0].colorName}</p>
+    
+    <button 
+      class="delete-from-cart" 
+      style="grid-column: 3; justify-self: end; background-color: red; color: white;" 
+      data-id="${item.id}" 
+      data-name="${item.name}">X</button>
+
+    <p class="cart-card__quantity">qty: 1</p>
+    
+    <p class="cart-card__price">$${item.finalPrice}</p>
+  </li>`;
 
   return newItem;
 }
