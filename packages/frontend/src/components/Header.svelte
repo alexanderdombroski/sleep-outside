@@ -3,10 +3,16 @@
   import cart from "../assets/hiking-backpack.svg?url";
   import tent from "../assets/noun_Tent_2517.svg?url";
   import { getLocalStorage } from "../js/utils.mts";
+  import { cartRefresh } from "./cart.svelte";
   import UserMenu from "./UserMenu.svelte";
   const BASE_URL = import.meta.env.BASE_URL;
 
-  const cartItemsCount = $state(getLocalStorage<Product[]>("so-cart")?.length ?? 0);
+  let cartItemsCount = $state(getLocalStorage<Product[]>("so-cart")?.length ?? 0);
+  $effect(() => {
+    if (cartRefresh.data) {
+      cartItemsCount = getLocalStorage<Product[]>("so-cart")?.length ?? 0;
+    }
+  });
 </script>
 
 <header class="divider">

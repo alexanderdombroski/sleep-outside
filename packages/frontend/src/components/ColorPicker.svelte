@@ -1,26 +1,18 @@
 <script lang="ts">
   import type { Color } from "../../../shared/types/schemas.mts";
+  import { selectColor, selectedColor } from "./cart.svelte";
 
   type Props = {
     colors: Color[];
-    selected?: Color;
-    onChange?: (color?: Color) => void;
   };
 
-  let { colors, selected, onChange }: Props = $props();
-
-  function selectColor(color?: Color) {
-    selected = color;
-    // @ts-expect-error ts(2339)
-    window.selectColor?.(color)
-    onChange?.(color);
-  }
+  let { colors }: Props = $props();
 </script>
 
 <div class="color-picker">
   {#each colors as color}
     <button
-      class:selected={selected === color}
+      class:selected={selectedColor.color === color}
       style={`background: url(${color.colorChipImageSrc})`}
       onclick={() => selectColor(color)}
       aria-label={color.colorName}
