@@ -4,8 +4,134 @@ const title = "Checkout";
 ---
 
 <Layout title={title}>
-    <slot class="divider">
-        <h1>Checkout</h1>
-        <p>This is the checkout page.</p>
-    </slot>
+  <slot class="divider">
+    <h1>Checkout</h1>
+
+    <form id="submitform">
+      <div class="form-sections">
+        <fieldset>
+          <legend>Shipping</legend>
+
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" name="firstName" required />
+
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" name="lastName" required />
+
+          <label for="street">Street</label>
+          <input type="text" id="street" name="street" required />
+
+          <label for="city">City</label>
+          <input type="text" id="city" name="city" required />
+
+          <label for="state">State</label>
+          <input type="text" id="state" name="state" required />
+
+          <label for="zip">Zip</label>
+          <input type="text" id="zip" name="zip" required />
+        </fieldset>
+
+        <fieldset>
+          <legend>Payment</legend>
+
+          <label for="cardNumber">Card number</label>
+          <input type="text" id="cardNumber" name="cardNumber" required />
+
+          <label for="expiration">Expiration</label>
+          <input type="text" id="expiration" name="expiration" required />
+
+          <label for="securityCode">Security Code</label>
+          <input
+            type="text"
+            id="securityCode"
+            name="securityCode"
+            pattern="[0-9]{3,4}"
+            maxlength="4"
+            required
+          />
+        </fieldset>
+      </div>
+
+      <fieldset>
+        <legend>Order Summary</legend>
+
+        <p class="cart-info">
+          Item Subtotal: (<span class="amount"></span>) $<span class="cost"
+          ></span>
+        </p>
+        <p>Shipping Estimate: $10</p>
+        <p>Tax: $<span class="tax"></span></p>
+        <p><strong>Order Total $<span class="total"></span></strong></p>
+      </fieldset>
+
+      <button type="submit">Checkout</button>
+    </form>
+  </slot>
 </Layout>
+
+<script>
+  import type { Product } from "../../../../shared/types/schemas.mts";
+  import { getLocalStorage, setLocalStorage } from "../../js/utils.mts";
+  import { sendAlert } from "../../components/alert";
+
+  const cart = getLocalStorage<Product[]>("so-cart") ?? [];
+  const info = document.querySelector(".cart-info");
+  const amount = info?.querySelector(".amount");
+  if (amount) amount.textContent = String(cart.length);
+  let cartTotal = 0;
+  cart.forEach((product) => {
+    cartTotal += product.finalPrice;
+  });
+  const subtotal = info?.querySelector(".cost");
+  if (subtotal) subtotal.textContent = String(cartTotal);
+  const tax = document.querySelector(".tax");
+  if (tax) tax.textContent = String((cartTotal * 0.06).toFixed(2));
+  const total = document.querySelector(".total");
+  if (total) total.textContent = String((cartTotal * 1.06 + 10).toFixed(2));
+
+  const form = document.getElementById("submitform") as HTMLFormElement;
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    // @ts-ignore ts(2339)
+    sendAlert({
+      type: "success",
+      message: "We will definitely send that to you soon!",
+    });
+    setLocalStorage("so-cart", []);
+    form.reset();
+  });
+</script>
+
+<style>
+  form > * {
+    margin-inline: auto;
+  }
+  h1,
+  label {
+    text-align: center;
+  }
+  fieldset,
+  label,
+  input {
+    display: block;
+  }
+  fieldset {
+    width: 17rem;
+  }
+  label,
+  input {
+    width: 14rem;
+  }
+  input {
+    margin-bottom: 1rem;
+  }
+  .form-sections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  button {
+    margin-top: 1rem;
+  }
+</style>
