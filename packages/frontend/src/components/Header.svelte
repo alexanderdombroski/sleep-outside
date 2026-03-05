@@ -1,13 +1,17 @@
-<script>
+<script lang="ts">
+  import type { Product } from "../../../shared/types/schemas.mts";
   import cart from "../assets/hiking-backpack.svg?url";
-  import tent from "../assets/noun_Tent_2517.svg?url"
+  import tent from "../assets/noun_Tent_2517.svg?url";
+  import { getLocalStorage } from "../js/utils.mts";
   import UserMenu from "./UserMenu.svelte";
   const BASE_URL = import.meta.env.BASE_URL;
+
+  const cartItemsCount = $state(getLocalStorage<Product[]>("so-cart")?.length ?? 0);
 </script>
 
 <header class="divider">
   <div class="logo">
-    <a href="{BASE_URL}">
+    <a href={BASE_URL}>
       <img src={tent} alt="tent icon" />
       <p>Sleep Outside</p>
     </a>
@@ -23,6 +27,9 @@
         title="Shopping Cart"
       >
         <img src={cart} alt="" role="presentation" />
+        {#if cartItemsCount}
+          <span>{cartItemsCount}</span>
+        {/if}
       </a>
     </div>
   </nav>
@@ -66,11 +73,14 @@
     white-space: nowrap;
     font-size: 1.6rem;
   }
-  .logo a, .cart a {
+  .logo a,
+  .cart a {
     text-decoration: none;
     color: var(--font-body);
   }
   .cart img {
     width: 30px;
+  }
+  .cart span {
   }
 </style>
