@@ -10,18 +10,22 @@ const BASE_URL = import.meta.env.BASE_URL;
   import { sendAlert } from "../../components/alert/alert.svelte.ts";
   import type { AlertOptions } from "../../components/alert";
   import { deleteFromCart } from "../../js/cart.ts";
+  import { addToCartById } from "../../js/cart.ts";
+
+  let cartItems: Product[] = renderCartContents() as Product[];
+  refreshCart();
 
   function refreshCart() {
-    let cartItems: Product[] = renderCartContents() as Product[];
+    cartItems = renderCartContents() as Product[];
     let cartTotal = 0;
     cartItems.forEach((product) => {
       cartTotal += product.finalPrice;
     });
     const cartTotalElement = document.querySelector(".cart-total");
     if (cartItems.length > 0 && cartTotalElement) {
-      cartTotalElement.innerHTML = `<p class="cart-total">Total: $${cartTotal.toFixed(2)}</p>`;
+      cartTotalElement.textContent = `Total: $${cartTotal.toFixed(2)}`;
     } else if (cartTotalElement) {
-      cartTotalElement.innerHTML = `<p class="cart-total-empty">Total: $0.00</p>`;
+      cartTotalElement.textContent = `Total: $0.00`;
     }
   }
 
@@ -38,21 +42,63 @@ const BASE_URL = import.meta.env.BASE_URL;
       if (deleteBtn) {
         const productId = deleteBtn.dataset.id;
         const productName = deleteBtn.dataset.name;
+        const colorName = deleteBtn.dataset.color as string;
 
         if (productId) {
-          deleteFromCart(productId);
-
+          deleteFromCart(productId, colorName);
           sendAlert({
             type: "success",
             message: `${productName} removed from cart!`,
           } as AlertOptions);
-
-          refreshCart();
         }
       }
     });
     refreshCart();
   }
+
+  document.addEventListener("change", (event) => {
+    const input = event.target as HTMLInputElement;
+
+    if (input && input.matches(".quantity-input")) {
+      const newQty = parseInt(input.value);
+      const productId = input.dataset.id;
+      const colorName = input.dataset.color as string;
+
+      const currentQtyInCart = cartItems.filter(
+        (item) =>
+          item.id === productId && item.colors[0].colorName === colorName,
+      ).length;
+
+      if (productId && !isNaN(newQty) && newQty > 0) {
+        if (currentQtyInCart < newQty) {
+          const amountToAdd = newQty - currentQtyInCart; // Find the difference
+
+          for (let i = 0; i < amountToAdd; i++) {
+            addToCartById(productId, colorName);
+          }
+
+          sendAlert({
+            type: "success",
+            message: `Increased quantity of product ${productId} to ${newQty}`,
+            duration: 3000,
+          } as AlertOptions);
+        } else if (currentQtyInCart > newQty) {
+          const amountToRemove = currentQtyInCart - newQty; // Find the difference
+
+          for (let i = 0; i < amountToRemove; i++) {
+            deleteFromCart(productId, colorName);
+          }
+
+          sendAlert({
+            type: "success",
+            message: `Decreased quantity of product ${productId} to ${newQty}`,
+            duration: 3000,
+          } as AlertOptions);
+        }
+      }
+      refreshCart();
+    }
+  });
 </script>
 
 <Layout title={title}>
