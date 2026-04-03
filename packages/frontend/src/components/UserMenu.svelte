@@ -54,14 +54,14 @@
 
   <nav class="user__menu" class:open={visible}>
     {#if userStore.isLoggedIn}
-      <a href={`${BASE_URL}profile/index.html`}>Profile</a>
+      <a href={`${BASE_URL}profile`}>Profile</a>
       <a href="#">Orders</a>
       <span role="button" onclick={logout} onkeypress={logout} tabindex="0"
         >Logout</span
       >
     {:else}
-      <a href={`${BASE_URL}login/index.html`}>Login</a>
-      <a href={`${BASE_URL}profile/register.html`}>Register</a>
+      <a href={`${BASE_URL}login`}>Login</a>
+      <a href={`${BASE_URL}profile/register`}>Register</a>
     {/if}
   </nav>
 </div>
