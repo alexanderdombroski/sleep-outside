@@ -35,6 +35,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Warm Up Server
+        run:  curl -s --max-time 1 https://sleep-outside-cptt.onrender.com/health || true
+
       - name: Setup Node
         uses: actions/setup-node@v6
         with:
